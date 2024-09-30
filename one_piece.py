@@ -12,8 +12,8 @@ import sys
 # max and min rated episode for each arc
 warnings.filterwarnings('ignore')
 # know reads work
-episode_ratings = pd.read_csv('Sheets/onepiece_IMDb_episodes_list_1077.csv')
-arcs = pd.read_csv('Sheets/OnePieceArcs.csv')
+episode_ratings = pd.read_csv('one piece analysis/onepiece_IMDb_episodes_list_1077.csv')
+arcs = pd.read_csv('one piece analysis/OnePieceArcs.csv')
 ###############################################################################
 def display_arcs(): # displays arc information, lets you 
                     # choose amount of arcs you can have displayed
@@ -75,6 +75,7 @@ def display_ratings(): # gets epsiode number, prints rating
     rating_to_return = episode_ratings.loc[(episode_ratings['Episode Number'] == int(ratings_shown)), 'Average Rating'].values
     episode_title = episode_ratings.loc[(episode_ratings['Episode Number'] == int(ratings_shown)), 'Title'].values
     episode_plot =  episode_ratings.loc[(episode_ratings['Episode Number'] == int(ratings_shown)), 'Plot'].values
+    # holds amount rated higher and their titles
     how_many_better, descriptions = how_many_more(float(rating_to_return))
     
     # returning some info
@@ -113,6 +114,31 @@ def display_episodes_ranked():
     
     print(rankings.head(50))
 ###################################################################################
+def chapter_to_episode_ratio():
+    
+    # get total for page and episodes first
+    page_holder = arcs['TotalChapters'].values.sum()
+    
+    # print(page_holder)
+    
+    episode_holder = arcs['TotalEpisodes'].values.sum()
+    
+    # print(episode_holder)
+    # still need to see if this is the best tool for comparison, we'll know after specific arc info
+    print('For every chapter of the manga, on average there is ' + str(round(episode_holder/page_holder, 2)) + ' episodes in the anime.') 
+    
+    arc_selector = input('Choose which arc you would like to see the chapter to episode information for.\n' +\
+                         'Keep in mind, follow the arc name with \'Arc\' to match with our database: ')
+    # get specific chapters
+    custom_chapter_analysis = arcs.loc[(arcs['Arc'] == str(arc_selector)), 'TotalChapters'].values.sum()
+    # get specific episodes
+    custom_episode_analysis = arcs.loc[(arcs['Arc'] == str(arc_selector)), 'TotalEpisodes'].values.sum()
+    
+    
+    print('For the ' + str(arc_selector) + ' , there is an average of ' + str(round(custom_episode_analysis/custom_chapter_analysis, 2)) + ' episodes ' +\
+         ('per chapter in the manga.'))
+
+#############################################################################################
 def display_rankings_in_arc(): # seperate arcs into their own categories
                                # seperate query for each time we look at a new arc
                                
@@ -635,6 +661,8 @@ def menu():
         
         print('5. Display Arc Titles')
         
+        print('6. Display Page to Episode Ratio')
+        
         choice = input('Choose a number to use a function: ')
         # quitting the program
         if choice == str(0):
@@ -662,6 +690,10 @@ def menu():
         elif choice == str(5):
             
             display_arc_titles()
+            
+        elif choice == str(6):
+            
+            chapter_to_episode_ratio()
         # no valid input    
         else:
             sys.exit('Not a valid input')
