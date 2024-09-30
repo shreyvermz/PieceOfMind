@@ -661,7 +661,7 @@ def menu():
         
         print('5. Display Arc Titles')
         
-        print('6. Display Page to Episode Ratio')
+        print('6. Display Chapter to Episode Ratio')
         
         choice = input('Choose a number to use a function: ')
         # quitting the program
