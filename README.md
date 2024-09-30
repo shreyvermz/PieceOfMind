@@ -20,6 +20,7 @@ out of the program. It's functions, as of this moment, are:
     3. Display Top 50 According to IMDb
     4. Display Highest Rated Epsiodes in Specific Arc
     5. Display Arc Titles
+    6. Display Chapter to Episode Ratio
 
 ## Method and Motivation
 This project was completed using **Python** and the **Pandas** library contained within it to pull information from 2 databases. The first database was a list of the individual episodes,
@@ -71,6 +72,16 @@ The arc names are not saved in the IMDb ratings database, therefore we had to cu
 ### Display Arc Titles
 This is a clone of the portion of **Display Arc Information** where the user is given the choice to view a list with all the arcs. A simple getter so the user has access to the correctly
 spelled names.
+
+### Display Chapter to Episode Ratio
+This function firstly gathers the total number of chapters and episodes contained in the database as a whole, and returns an average conversion of how many episodes Toei
+Animation put out for every corresponding chapter. In a perfectly efficient world, there would be an episode or less for each chapter in the manga.
+
+The second poriton of this function takes an inputted arc from the user, and returns the chapter-to-episode ratio for that specific case.
+The overall average will stay unchanging, but users can see which arcs were more susceptible to dragging out the source material. The more episodes there are per chapter,
+the more Toei Animations probably relied on unnecessarily long and extended episode renditions. This could have been implemented for any number of reasons, but the most common
+is that One Piece is a **weekly** anime. Unlike many that deliver a season every year or 2, One Piece has a quota to release an episode a week.
+This demand for quicker delivery may sometimes leave the studio chasing from behind, having to stretch budget and chapters for especially demanding arcs. 
 
 ### Quit
 The last input option for the user is 0, which terminates the while loop the user is trapped in and quits the recurring menu. 
