@@ -1,4 +1,4 @@
-# Piece Of Mind
+# Piece Of Mind (in progress!)
 ### An interactive menu that pulls information about One Piece arcs and individual episodes from public databases.
 
 ## Description
