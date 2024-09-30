@@ -12,8 +12,8 @@ import sys
 # max and min rated episode for each arc
 warnings.filterwarnings('ignore')
 # know reads work
-episode_ratings = pd.read_csv('one piece analysis/onepiece_IMDb_episodes_list_1077.csv')
-arcs = pd.read_csv('one piece analysis/OnePieceArcs.csv')
+episode_ratings = pd.read_csv('onepiece_IMDb_episodes_list_1077.csv')
+arcs = pd.read_csv('OnePieceArcs.csv')
 ###############################################################################
 def display_arcs(): # displays arc information, lets you 
                     # choose amount of arcs you can have displayed
@@ -626,6 +626,91 @@ def return_arc(episode_number): # index to map episode to arc names
     else:
         return 'Episode doesn\'t map to arc in database.'
 ##################################################################################
+def give_arc_description():
+    
+    print('1. Romance Dawn\n' +\
+          '2. Orange Town\n' +\
+          '3. Syrup Village\n' +\
+          '4. Baratie\n' +\
+          '5. Arlong Park\n' +\
+          '6. Loguetown')
+
+    which_to_describe = input('Choose the arc to receive a summary: ')
+
+    if which_to_describe == str(1):
+        
+        print('\nRomance Dawn is where the journey begins. We are introduced to an exuberant, carefree, and joyous') 
+        print('young man known as Monkey D. Luffy, the man who claims he will be King of the Pirates. His aloof approach') 
+        print('to an otherwise serious and deadly world lands him with a loyal henchman, Roronoa Zoro.') 
+        print('They embark on their journey as the Straw Hat Pirates, Luffy with his eyes set on King of the Pirates, and Zoro on being the greatest swordsman.\n') 
+        print('The audience is introduced to the one unifying item between criminals and the government: the One Piece.') 
+        print('The existence of it is only confirmed by the word of one man to wield such a treasure, as well as being the') 
+        print('most wanted man in history, and the only one to ever be King of the Pirates: Gol D. Roger. The pirates yearn') 
+        print('to possess such a mystical treasure, and the World Government, the most powerful force in the world, will') 
+        print('stop at nothing to ensure the One Piece does not fall into the hands of the ones they deem criminals.\n')
+        print('Luffy and Zoro run into trouble in a Marine base, and find themselves at the mercy of a Marine officer.')
+        print('The Marines are touted as the rightoeous, yet this official takes advantage of the World Government\'s')
+        print('authoritity to impose his unjust will on citizens and even his subordinate Marine officers.\n')
+        
+    elif which_to_describe == str(2):
+        
+        print('\nOrange Town takes us away from the military base island and introduces Luffy to Nami, another key component to his adventure.')
+        print('We don\'t know much of Nami\'s background yet, besides being a thief, but she approaches Luffy and seems to give him her allegiance.')
+        print('She then sells out the overly-trusting Luffy to Buggy the Clown, another Devil Fruit user, who gives Luffy yet another obstacle to pass.')
+        print('Buggy is shown to be an important clown, however, as he and Luffy\'s guardian angel, Shanks, are shown')
+        print('to have been on the crew of the Roger Pirates, or the crew who found the One Piece.\n')
+        print('While they were young and didn\'t boast any significant contributions, it shows the importance of Shanks as a character and how Luffy connects to the world aroud him.\n')
+        
+    elif which_to_describe == str(3):
+        
+        print('\nSyrup Village is where we meet our crew\'s sniper Usopp, although when we\'re first introduced to him, he is the leader')
+        print('of the fearsome Usopp Pirates, a crew consisting of him and three fiercely loyal children from his village.\n')
+        print('We then meet Usopp\'s best friend, Kaya who is bedridden and perpetually sick. Luffy is introducd to Kaya, when they realize')
+        print('she is intentionally being kept sick by her butler, Klahadore, the ex-leader of the Black Cat Pirates. With eyes on')
+        print('Kaya\'s family fortune, Klahadore has much to gain from Kaya being unable to inherit her shipbuilding business. It is up')
+        print('to Luffy and the crew to save her from the unknown clutches of the only family she has left.\n')
+        print('After successfully freeing Kaya from her sickness, she gifts the crew the Going Merry, named after her butler who stayed loyal.')
+        print('Usopp shares his dream of overcoming his fears and being a fierce warrior of the seas, joining Luffy, Zoro, and Nami on their journey.\n')
+        
+    elif which_to_describe == str(4):
+        
+        print('\nAfter adding Usopp to the Straw Hats, the crew ends up at a ship that is branded as a restaurant called the Baratie, providing')
+        print('haven for all seafarers. Upon visitng, the Straw Hats encounter a cook named Sanji, the underling of the restaurant owner Zeff,')
+        print('who took Sanji in as a kid and trained him for most of his life. Luffy respects Sanji and wants him to join his crew')
+        print('as the cook, to which Sanji initially declines.\n') 
+        print('A pirate named Don Krieg lays siege to the Baratie, hoping to claim the ship')
+        print('for his pirating indulgences. While Luffy fights Krieg, Zoro encounters a swordsman named Mihawk.\n')
+        print('We are now introduced to Zoro\'s goal, as Mihawk is the current strongest swordsman in the sea, and Zoro will have to beat him to')
+        print('achieve his dream.\n') 
+        print('Nami splits from the Straw Hats amidst the chaos to satisfy her greater goal, which the audience isn\'t aware of yet.')
+        print('Sanji joins the party, and being a ferocious fighter. slides into his role alongside Zoro as the Wings of the King of the Pirates.\n')
+        
+    elif which_to_describe == str(5):
+        
+        print('\nThe Straw Hats gained a cook at the Baratie, but lost a navigator in the process. Nami has fled from the Straw Hat Pirates, betraying them')
+        print('one more time before setting off to the headquarters of the pirate crew she shows true allegiance to, Arlong Park.\n')
+        print('Luffy, being as simple minded as he is, simply refuses to give up on Nami. They follow her to Arlong Park, to discover the people')
+        print('of her hometown being exploited and mistreated by a group of Fishmen led by Arlong. The town is shaken down for their money and resources,')
+        print('and death is threatened in the absence of compliance.\n')
+        print('We see Nami\'s backstory, and learn that she is obssessed with money to buy her village\'s freedom. After learning of this,')
+        print('Luffy calls on his crew to help him overthrow the Arlong Pirates, imparting Nami with his treasured Straw Hat as a reminder of his support.\n')
+        print('It is in this arc we see the conventionally stupid and absent-minded Luffy being extremely capable of emotional intelligence')
+        print('and grounding his crew, which is exemplified more and more as the show goes on. Nami rejoins the Straw Hats and Arlong Park is destroyed.\n')
+        
+    elif which_to_describe == str(6):
+        
+        print('\nAfter being captured by Buggy, Luffy is brought to Loguetown, where Roger was executed. It is here that we see how Luffy reacts when truly')
+        print('faced with death. As he realizes there is no way out, and the guillotine is about to drop on his neck, Luffy closes his eyes, smiles his heart out,')
+        print('and tells his crew\n')
+        print('"Sorry guys! I\'m dead!"\n')
+        print('Luffy is then pardoned from death after being saved by a mysterious benefactor who can seemingly control lightning. The smile on Luffy\'s face is')
+        print('the focus of a specific Navy Admiral, Smoker, who witnessed the death of Gol. D. Roger, and was baffled by the similarities he shared with Luffy.')
+        print('It is in Loguetown where the audience is fully convinced Luffy will be King of the Pirates, as those who would want nothing less')
+        print('are recognizing the danger he poses, as he could become a symbol for pirates as Roger once did.\n')
+        print('Escaping death in the place where the previous King of Pirates was unable to shows us that Luffy is truly ready. We know the')
+        print('One Piece is somewhere in the Grand Line, but now the crew truly starts the adventure and head to the entrance.\n')
+
+##################################################################################    
 def how_many_more(rating):
     
     more = episode_ratings.loc[(episode_ratings['Average Rating'] > rating), 'Title'].count()
@@ -663,6 +748,8 @@ def menu():
         
         print('6. Display Chapter to Episode Ratio')
         
+        print('7. Give Arc Description (work in progress)')
+        
         choice = input('Choose a number to use a function: ')
         # quitting the program
         if choice == str(0):
@@ -695,6 +782,11 @@ def menu():
             
             chapter_to_episode_ratio()
         # no valid input    
+        
+        elif choice == str(7):
+            
+            give_arc_description()
+            
         else:
             sys.exit('Not a valid input')
 #########################################################################################      
