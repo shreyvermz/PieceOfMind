@@ -1,5 +1,5 @@
 # Piece Of Mind
-### A fun interactive menu that pulls information about One Piece arcs and individual episodes from public databases.
+### An interactive menu that pulls information about One Piece arcs and individual episodes from public databases.
 
 ## Description
 Few shows consistently display brilliance and constant improvement as notably as the anime written by Eichiro Oda: **One Piece**. The anime is an adaptation of the manga, or a Japanese
