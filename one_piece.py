@@ -639,7 +639,9 @@ def give_arc_description():
           '9. Whiskey Peak\n' +\
           '10. Little Garden\n' +\
           '11. Drum Island\n' +\
-          '12. Alabasta')
+          '12. Alabasta\n' +\
+          '13. Jaya\n' +\
+          '14. Skypiea')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -859,7 +861,57 @@ def give_arc_description():
         print('the World Government has a system that enables Warlords to exist is a clear sign of their moral hypocrisy.')
         print('The audience at this point begins to question the Marines calling themselves the \'righteous\'.\n')
         
-                
+    elif which_to_describe == str(13):
+        
+        print('\nThe Jaya arc can be viewed as a prequel to the Skypiea arc. We arrive in Mock Town, a place that denounces')
+        print('myths, ironically as the Straw Hats are looking for somebody that has heard of the Sky Island.\n')
+        
+        print('While searching for answers, Luffy meets a strange man with a similar zest for exploration and making life')
+        print('an adventure. He proclaims to Luffy, in the land of dead dreams: \'A man\'s dreams never die!\', after')
+        print('Luffy was mocked and jumped for even suggesting that he was looking for the Sky Island.')
+        print('Luffy didn\'t realize it in the moment, but this man was Blackbeard, a dangerous pirate.\n')
+        print('It is through Blackbeard that we are also briefly shown Fleet Admiral Sengoku, and Warlords')
+        print('Kuma and Doflamingo. We are then shown a glimpse of the Five Elders, the people at the very')
+        print('top of the World Government.\n')
+        
+        print('Before Luffy learned how to get to the Sky Island, the Knockup Stream, Luffy was attacked by Bellamy, a')
+        print('suboordinate of the aforementioned Warlord Doflamingo. Bellamy gets wiped out in one punch by Luffy,')
+        print('and his embrassing encounter exemplifies that Luffy is becoming more infamous and fearsome to the common eye.')
+        print('Bellamy\'s connection to Doflamingo sets the stage for a conflict between Doflamingo and Luffy in the') 
+        print('Dressrosa arc.\n')
+        
+    elif which_to_describe == str(14):
+        
+        print('\nAfter entering the Knockup Stream from Jaya, the Straw Hats arrive at the Sky Island, Skypiea. This island')
+        print('adds a whole new dynamic to the geography of the One Piece world. We learn that there are other sky')
+        print('islands in existence, expanding the enticing ridiculousness of the world Oda continues to build.\n')
+        
+        print('After staying for a bit, the crew begins to notice that the citizens heed the influence of their God very')
+        print('seriously. If anyone stepped out of line, they were subject to a lightning strike from a seemingly')
+        print('omnipotent creature. After further investigation, a man with a lightning Logia fruit, Enel, uses his')
+        print('Mantra (later established as Observation Haki) to keep tabs on the whole island.\n')
+        
+        print('A band of freedom fighters, the tribe of the Shandia, lead the Straw Hats to believe about the existence')
+        print('of a city of gold, which they suspect to be the upper area of Skypiea, where Enel resides. They lay siege')
+        print('to the area, helping the tribe of Shandia overcome Enel\'s forces, and find the city to be real.')
+        print('Luffy uses his rubber properties to defeat Enel, and rings a Golden Bell in order to signify to Skypiea')
+        print('that he has won, casting a giant shadow of himself in the sky, allowing it to be seen from Jaya.')
+        print('It is in this moment that Luffy restores a sense of wonder to the people of Mock Town, showing a theme')
+        print('of Luffy bringing Joy to the world.\n')
+        
+        print('The emancipation of Skypiea and restoration of Jaya\'s faith by Luffy is an impressive individual')
+        print('occurence in the context of the arc, but this arc lays the groundwork for a transformation shown')
+        print('almost 1000 episodes later in Wano Country. While celebrating, the tribe of Shandia keys the audience')
+        print('to the existence of mysterious war drums that seem to follow a battle attaining freedom, and in the')
+        print('anime, the rhythm sounds similar to the recurring theme song we hear before all of Luffy\'s battles.')
+        print('This is our first introduction to the Drums of Liberation.\n')
+        
+        print('The crew finds a Poneglyph, which once again highlights Robin\'s indispensable importance to the')
+        print('crew, as she is one of the only people alive who is able to read them.')
+        print('The one they find mentions an Ancient Weapon known as Poseidon. There was a message on the Poneglyph')
+        print('left by Gol D. Roger, meaning that the Roger Pirates were truly successful in finding the One Piece,')
+        print('and were also able to uncover the truth of the world that the World Government works to hide.\n')
+        
     else:
         
         print('Not a valid input.\n')
