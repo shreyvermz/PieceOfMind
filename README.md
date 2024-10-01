@@ -21,6 +21,7 @@ out of the program. It's functions, as of this moment, are:
     4. Display Highest Rated Epsiodes in Specific Arc
     5. Display Arc Titles
     6. Display Chapter to Episode Ratio
+    7. Display Arc Synopsis (in progress)
 
 ## Method and Motivation
 This project was completed using **Python** and the **Pandas** library contained within it to pull information from 2 databases. The first database was a list of the individual episodes,
@@ -82,6 +83,13 @@ The overall average will stay unchanging, but users can see which arcs were more
 the more Toei Animations probably relied on unnecessarily long and extended episode renditions. This could have been implemented for any number of reasons, but the most common
 is that One Piece is a **weekly** anime. Unlike many that deliver a season every year or 2, One Piece has a quota to release an episode a week.
 This demand for quicker delivery may sometimes leave the studio chasing from behind, having to stretch budget and chapters for especially demanding arcs. 
+
+### Display Arc Synopsis
+This function provides a sub menu where the arc that the user wants to see can be chosen. When the user chooses the arc, the function returns a description
+of the arc written by me. This section is meant to provide a sense of humanity to the project, since the rest of the functions deal explicitly in numbers and 
+statistics. By adding this section, I hoped to capture some of the thematic elements as well as summarizing the major events in each arc. 
+
+This synopsis should not be read if the user has not seen the arc and plans to, as listing some thematic nuances would be difficult without including plot spoilers.
 
 ### Quit
 The last input option for the user is 0, which terminates the while loop the user is trapped in and quits the recurring menu. 
