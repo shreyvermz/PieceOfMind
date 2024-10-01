@@ -633,9 +633,15 @@ def give_arc_description():
           '3. Syrup Village\n' +\
           '4. Baratie\n' +\
           '5. Arlong Park\n' +\
-          '6. Loguetown')
+          '6. Loguetown\n' +\
+          '7. Warship Island\n' +\
+          '8. Reverse Mountain\n' +\
+          '9. Whiskey Peak\n' +\
+          '10. Little Garden\n' +\
+          '11. Drum Island\n' +\
+          '12. Alabasta')
 
-    which_to_describe = input('Choose the arc to receive a summary: ')
+    which_to_describe = input('Choose the arc to receive a summary on: ')
 
     if which_to_describe == str(1):
         
@@ -643,11 +649,13 @@ def give_arc_description():
         print('young man known as Monkey D. Luffy, the man who claims he will be King of the Pirates. His aloof approach') 
         print('to an otherwise serious and deadly world lands him with a loyal henchman, Roronoa Zoro.') 
         print('They embark on their journey as the Straw Hat Pirates, Luffy with his eyes set on King of the Pirates, and Zoro on being the greatest swordsman.\n') 
+        
         print('The audience is introduced to the one unifying item between criminals and the government: the One Piece.') 
         print('The existence of it is only confirmed by the word of one man to wield such a treasure, as well as being the') 
         print('most wanted man in history, and the only one to ever be King of the Pirates: Gol D. Roger. The pirates yearn') 
         print('to possess such a mystical treasure, and the World Government, the most powerful force in the world, will') 
         print('stop at nothing to ensure the One Piece does not fall into the hands of the ones they deem criminals.\n')
+        
         print('Luffy and Zoro run into trouble in a Marine base, and find themselves at the mercy of a Marine officer.')
         print('The Marines are touted as the rightoeous, yet this official takes advantage of the World Government\'s')
         print('authoritity to impose his unjust will on citizens and even his subordinate Marine officers.\n')
@@ -659,16 +667,19 @@ def give_arc_description():
         print('She then sells out the overly-trusting Luffy to Buggy the Clown, another Devil Fruit user, who gives Luffy yet another obstacle to pass.')
         print('Buggy is shown to be an important clown, however, as he and Luffy\'s guardian angel, Shanks, are shown')
         print('to have been on the crew of the Roger Pirates, or the crew who found the One Piece.\n')
+        
         print('While they were young and didn\'t boast any significant contributions, it shows the importance of Shanks as a character and how Luffy connects to the world aroud him.\n')
         
     elif which_to_describe == str(3):
         
         print('\nSyrup Village is where we meet our crew\'s sniper Usopp, although when we\'re first introduced to him, he is the leader')
         print('of the fearsome Usopp Pirates, a crew consisting of him and three fiercely loyal children from his village.\n')
+        
         print('We then meet Usopp\'s best friend, Kaya who is bedridden and perpetually sick. Luffy is introducd to Kaya, when they realize')
         print('she is intentionally being kept sick by her butler, Klahadore, the ex-leader of the Black Cat Pirates. With eyes on')
         print('Kaya\'s family fortune, Klahadore has much to gain from Kaya being unable to inherit her shipbuilding business. It is up')
         print('to Luffy and the crew to save her from the unknown clutches of the only family she has left.\n')
+        
         print('After successfully freeing Kaya from her sickness, she gifts the crew the Going Merry, named after her butler who stayed loyal.')
         print('Usopp shares his dream of overcoming his fears and being a fierce warrior of the seas, joining Luffy, Zoro, and Nami on their journey.\n')
         
@@ -678,10 +689,13 @@ def give_arc_description():
         print('haven for all seafarers. Upon visitng, the Straw Hats encounter a cook named Sanji, the underling of the restaurant owner Zeff,')
         print('who took Sanji in as a kid and trained him for most of his life. Luffy respects Sanji and wants him to join his crew')
         print('as the cook, to which Sanji initially declines.\n') 
+        
         print('A pirate named Don Krieg lays siege to the Baratie, hoping to claim the ship')
         print('for his pirating indulgences. While Luffy fights Krieg, Zoro encounters a swordsman named Mihawk.\n')
+        
         print('We are now introduced to Zoro\'s goal, as Mihawk is the current strongest swordsman in the sea, and Zoro will have to beat him to')
         print('achieve his dream.\n') 
+        
         print('Nami splits from the Straw Hats amidst the chaos to satisfy her greater goal, which the audience isn\'t aware of yet.')
         print('Sanji joins the party, and being a ferocious fighter. slides into his role alongside Zoro as the Wings of the King of the Pirates.\n')
         
@@ -689,11 +703,14 @@ def give_arc_description():
         
         print('\nThe Straw Hats gained a cook at the Baratie, but lost a navigator in the process. Nami has fled from the Straw Hat Pirates, betraying them')
         print('one more time before setting off to the headquarters of the pirate crew she shows true allegiance to, Arlong Park.\n')
+        
         print('Luffy, being as simple minded as he is, simply refuses to give up on Nami. They follow her to Arlong Park, to discover the people')
         print('of her hometown being exploited and mistreated by a group of Fishmen led by Arlong. The town is shaken down for their money and resources,')
         print('and death is threatened in the absence of compliance.\n')
+        
         print('We see Nami\'s backstory, and learn that she is obssessed with money to buy her village\'s freedom. After learning of this,')
         print('Luffy calls on his crew to help him overthrow the Arlong Pirates, imparting Nami with his treasured Straw Hat as a reminder of his support.\n')
+        
         print('It is in this arc we see the conventionally stupid and absent-minded Luffy being extremely capable of emotional intelligence')
         print('and grounding his crew, which is exemplified more and more as the show goes on. Nami rejoins the Straw Hats and Arlong Park is destroyed.\n')
         
@@ -702,13 +719,150 @@ def give_arc_description():
         print('\nAfter being captured by Buggy, Luffy is brought to Loguetown, where Roger was executed. It is here that we see how Luffy reacts when truly')
         print('faced with death. As he realizes there is no way out, and the guillotine is about to drop on his neck, Luffy closes his eyes, smiles his heart out,')
         print('and tells his crew\n')
+        
         print('"Sorry guys! I\'m dead!"\n')
+        
         print('Luffy is then pardoned from death after being saved by a mysterious benefactor who can seemingly control lightning. The smile on Luffy\'s face is')
-        print('the focus of a specific Navy Admiral, Smoker, who witnessed the death of Gol. D. Roger, and was baffled by the similarities he shared with Luffy.')
+        print('the focus of a specific Navy Admiral, Smoker, who witnessed the death of Gol D. Roger, and was baffled by the similarities he shared with Luffy.')
         print('It is in Loguetown where the audience is fully convinced Luffy will be King of the Pirates, as those who would want nothing less')
         print('are recognizing the danger he poses, as he could become a symbol for pirates as Roger once did.\n')
+        
         print('Escaping death in the place where the previous King of Pirates was unable to shows us that Luffy is truly ready. We know the')
         print('One Piece is somewhere in the Grand Line, but now the crew truly starts the adventure and head to the entrance.\n')
+        
+    elif which_to_describe == str(7):
+        
+        print('\nWarship Island is an anime exclusive arc, meaning it was not included in the manga and is not a part of the')
+        print('canon timeline. As the Straw Hats begin to make their jounrey to the Grand Line entrance, they encounter a young')
+        print('child who was seperated from a Marine base. When on the way to deliver her back to her rightful home, the Straw Hats')
+        print('encounter a dead zone in the sea where the currents lose their power. In this area, known as the Calm Belt, we run')
+        print('into Sea Kings once more, which we were first introduced to in Romance Dawn when Shanks lost his arm for Luffy.\n')
+        
+        print('While this arc doesn\'t provide much plot resolution, the introduction of the Sea Kings as common')
+        print('and easily encounterable creatures not only sets the precedent for what is to come in the Grand Line, but')
+        print('what the entire world of One Piece is capable of.\n')
+        
+    elif which_to_describe == str(8):
+        
+        print('\nThe Reverse Mountain Arc marks the journey shifting from the East Blue to the Grand Line')
+        print('Reverse Mountain being the entrance to the Grand Line, the crew is baffled to find that the mountain requires the ship')
+        print('to go upstream the mountain, with seemingly no way to get there as the sea currents are completely still. When a pack')
+        print('of Sea Kings (giant sea monsters we saw Shanks save Luffy from) tries to indulge in the Going Merry, their movement')
+        print('shoots the ship up the mountain and to the Grand Line.\n')
+        
+        print('As the ship descends, the crew finds themselves plummeting into the mouth of a gargantuan whale, Laboon.')
+        print('Upon entering, they find a retired old man living in the whale\'s belly, Crocus, who claimed to be a part')
+        print('of the Roger Pirates. After some dialgoue, Crocus leads the Straw Hats out of Laboon, learning that he has been waiting')
+        print('for a crew of pirates who he traveled with to return, as they couldn\'t take him to the perilous Grand Line.')
+        print('Luffy recognizes Laboon\'s need for encouragement, and deems himself Laboon\'s rival, and orders him to wait for him')
+        print('so they can have one last battle.\n')
+        
+        print('While not seeming important, I believe this arc contains one of the most brilliant plot points in the series, as')
+        print('Laboon\'s relation to the crew is not left alone until their reunion. He is referenced once more in Thriller Bark,')
+        print('and the synopsis for that arc will contain more info on Laboon\'s character return.\n')
+        
+    elif which_to_describe == str(9):
+        
+        print('\nWhiskey Peak is a succint arc, yet is used to set the tone for the first major journey in the')
+        print('Grand Line: Alabasta. The crew also realizes after entering the Grand Line, their compasses no longer work.')
+        print('In search of food, rest, and information, the crew stops on the closest island to them: Whiskey Peak.')
+        print('When entering the island of Whiskey Peak, the Straw Hats are greeted by seemingly hospitable')
+        print('citizens, and they indulge in drinks and food all night. The night turns when the citizens reveal')
+        print('themselves as members of an organization called Baroque Works, and rob the pirates after') 
+        print('they all go to sleep. Zoro retaliates by defeating over 100 of the bounty hunters posing')
+        print('as citizens, including one Nefertari Vivi.\n')
+        
+        print('Luffy, enraged that Zoro would attack someone who fed him, engages in combat with his henchman, resulting in a short')
+        print('and one-time brawl between the captain and right-hand man.\n')
+        
+        print('I would argue the true significance of this arc is it setting the tone for the things that Luffy finds important.')
+        print('It doesn\'t matter to him that his new friends stole from him, he got his food. The theme that Luffy')
+        print('helps anyone who shows him kindness in the form of food is exemplified throughout the show, but this being')
+        print('the only time in the entire show Luffy actually gets mad at Zoro, it gives the audience plentiful insight into')
+        print('the captain of the Staw Hats. Luffy being reinforced as a character who has an almost impossibly concise')
+        print('moral compass, alongside simple and innocent motivations, further establishes the audience\'s trust in him.\n')
+        
+    elif which_to_describe == str(10):
+    
+        print('\nLittle Garden is an island the Straw Hats encounter after enlisting Vivi, who they found in Whiskey Peak, on their')
+        print('ship. Here they find two giants from an Island called Elbaf, Dorry and Brogy, who have been locked in battle for')
+        print('decades over reasons they can\'t remember. The crew split up upon reaching, as Zoro, Nami, and Usopp encounter')
+        print('a man named Mr. 3 from Baroque Works, discovering Mr. 0 sent Mr. 3 to kill them, bearing a devil fruit that can')
+        print('turn the crew to wax. Realizing his wax can be melted, the Straw Hats defeat him, earning more of Vivi\'s trust.\n')
+        
+        print('Meanwhile Sanji, taking solace in Mr. 3\'s house while he is fighting other crew members, intercepts a call from Mr. 0,')
+        print('the head of Baroque Works. Sanji is taken as Mr. 3, and he is told to meet Mr. 0 in Alabasta through an Eternal Pose,')
+        print('a compass that tracks the movement of waves and can be used accurately within the Grand Line. Before')
+        print('departing, Zoro and Sanji begin their long-lasting feud via an argument about dinosaur meat. Dorry and Brogy')
+        print('put their differences aside and bid the Straw Hats farewell, killing a Sea King blocking their exit.\n')
+        
+        print('While the crew now has the means to get to Alabasta, they set sail until Nami falls ill. Needing support for her and')
+        print('anticipating to uncover something with Baroque Works, the crew deems they need a doctor before they go any further.\n')
+        
+    elif which_to_describe == str(11):
+        
+        print('\nIn need of a doctor for Nami and their journey ahead, the crew stops in a winter wonderland: Drum Island.')
+        print('It is here they meet a talking reindeer named Chopper, along with his mentor Dr. Kureha. It is through')
+        print('Kureha that we first hear of the Will of D., as she makes the connection between Gol D. Roger and Monkey')
+        print('D. Luffy, the first time anyone does so in the whole series.\n') 
+        
+        print('We see Chopper being able to talk as a reindeer is a segue into the types of Devil Fruits, with different')
+        print('types affecting the user and their abilities in different ways. Chopper\'s type, a Zoan, allows him to change')
+        print('into a different animal, while Luffy\'s type, Paramecia, allows him to alter his body parts to another matter.\n')
+        
+        print('We then learn Chopper learned his medical skills from a doctor named Hiriluk, who died after Chopper tried')
+        print('to save him, causing him to dedicate his life to continue his work of growing cherry blossoms on their island.')
+        print('Chopper finds Hiriuk\'s legacy endangered by a man named Wapol, who seeks to take over the castle Hiriluk left')  
+        print('behind. Luffy steps in as Wapol attempts to symboically erase Hiriluk, taking a canonball to the chest to')
+        print('prevent the flag bearing a cherry blossom from being destroyed, earning Chopper\'s loyalty.\n')
+        
+        print('Other implications introduced in this arc include common noble behavior to be oppressive, demeaning, and')
+        print('entitled: the complete opposite of the only noble we know, Nefertari Vivi.\n')
+        
+        print('We also catch wind of the Blackbeard Pirates, with their viciousness and lack of mercy being key identifiers.')
+        print('We are foreshadowed a conflict between Blackbeard and Portgas D. Ace, the brother of Luffy.\n')
+        
+    elif which_to_describe == str(12):
+        
+        print('\nAlabasta is the biggest arc up to this point, and is the convergence point for the previous arcs since the')
+        print('Straw Hats made their entrance into the Grand Line. It is here they discover that Mr. 0 of Baroque Works is')
+        print('Crocodile, a Warlord of the sea. \'Warlord\' indicates he is a pirate with clearance from the World Government,')
+        print('as long as he does their bidding.\n')
+        
+        print('Vivi and her father are the rightful rulers of Alabasta, a desert town that has gone dry from a lack of rain.')
+        print('Crocodile keeps the population docile by promising prosperity if they give him allegiance, all the while')
+        print('being the reason the town has no water in the first place.\n')
+        
+        print('We are introduced to the third type of Devil Fruit and how it works in battle, as we see Crocodile has the')
+        print('Sand-Sand Fruit, allowing him to transform any part of his body to sand at will. This is the shared trait')
+        print('of every Devil Fruit of this type: the Logia.\n') 
+        
+        print('Nico Robin is touted as a villain for most of this arc, however she is the one of the most important characters')
+        print('of the whole show, with more to her being left unsaid thorugh a peek at her traumatizing backstory. She')
+        print('is the first to mention the Poneglyphs, introducing them to the equation in the quest for the One Piece.')
+        print('She also brings up the Will of D., leading the audience to believe Luffy has more and more merit to be')
+        print('King of the Pirates.\n')
+        
+        print('Crocodile\'s fight with Luffy signified the beginning of the World Government taking the Straw Hats as a')
+        print('serious threat. The infamy of Crocodile shocked the higher ups when the outcome of the fight was learned.')
+        print('This fight also foreshadows the struggles Luffy will have in the New World in two ways: the first being')
+        print('the level of difficulty that it took for Luffy to win. He was almost killed twice, and had to weaponize')
+        print('water to get through to Crocodile\'s sand Logia fruit. Another instance would be Crocodile saying')
+        print('the world will break Luffy\'s will when he approaches the New World, a prophecy that bears merit')
+        print('in the Marineford and Sabaody Archipelago arcs.\n')
+        
+        print('Lastly, we get a better impression on the troubling hold the World Governnent has on the world around')
+        print('them. First they take dishonorable action internally by disregarding Luffy\'s act of heroism, telling the')
+        print('Marine soldiers that Admiral Smoker was the reason Crocodile lost, and giving Smoker a promotion.')
+        print('Then, we see them altering the media reception of Alabasta, crediting the fall of Crocodile to another')
+        print('Warlord, Doflamingo, in order to hide the truth from the general public. Finally, the very fact that')
+        print('the World Government has a system that enables Warlords to exist is a clear sign of their moral hypocrisy.')
+        print('The audience at this point begins to question the Marines calling themselves the \'righteous\'.\n')
+        
+                
+    else:
+        
+        print('Not a valid input.\n')
 
 ##################################################################################    
 def how_many_more(rating):
@@ -769,20 +923,20 @@ def menu():
         elif choice == str(3):
             
             display_episodes_ranked()
-            
+        # show rankings but we go by arc   
         elif choice == str(4):
             
             display_rankings_in_arc()
-        
+        # show titles of arcs, simple getter
         elif choice == str(5):
             
             display_arc_titles()
-            
+         # show how many episodes per chapter on average   
         elif choice == str(6):
             
             chapter_to_episode_ratio()
         # no valid input    
-        
+        # typed out text description written by muah
         elif choice == str(7):
             
             give_arc_description()
