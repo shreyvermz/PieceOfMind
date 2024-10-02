@@ -641,7 +641,13 @@ def give_arc_description():
           '11. Drum Island\n' +\
           '12. Alabasta\n' +\
           '13. Jaya\n' +\
-          '14. Skypiea')
+          '14. Skypiea\n' +\
+          '15. G-8\n' +\
+          '16. Long Ring Long Land\n' +\
+          '17. Water 7\n' +\
+          '18. Enies Lobby\n' +\
+          '19. Thriller Bark\n' +\
+          '20. Sabaody Archipelago')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -912,9 +918,182 @@ def give_arc_description():
         print('left by Gol D. Roger, meaning that the Roger Pirates were truly successful in finding the One Piece,')
         print('and were also able to uncover the truth of the world that the World Government works to hide.\n')
         
+    elif which_to_describe == str(15):
+        
+        print('\nThe G-8 arc, like the Warship Island arc, is anime only and therefore, not canon. After leaving')
+        print('Skypiea, the Going Merry lands in the middle of a Marine outpost fortified by walls, leaving') 
+        print('them trapped. The crew undergoes a series of shenanigans, not limited to Luffy and Sanji')
+        print('impersonating chefs of the Marines, in order to eventually get caught anyways, and make their')
+        print('escape using a dial and inflatable octopus.\n')  
+        
+    elif which_to_describe == str(16):
+        
+        print('\nLong Ring Long Land feels reminsicent of a filler arc, as it\'s a smaller impact arc')
+        print('that was more common to the start of the show, however this arc is placed between two of')
+        print('the biggest ones up to this point, Skypiea and Water 7. It is here the crew has to undergo')
+        print('trials at the hand of Foxy the pirate, and Sanji and Zoro show that despite their constant')
+        print('arguing, they make a formidable duo as they are able to best giants in a game of physical')
+        print('skill.\n')
+        
+        print('This arc also introduces us to the suave Admiral Aokiji, who claims the Marines didn\'t take')
+        print('the Straw Hats seriously until their addition of Nico Robin. Aokiji also mentions Luffy\'s')
+        print('grandfather as helping him in some way, prompting curiosity within the group. Aokiji, unseriously,')
+        print('begins to fight the Straw Hats and easily defeats them, however doesn\'t capture them. After')
+        print('realizing he is still far weaker than most, Luffy begins formulating new moves that begin to')
+        print('show in the subsequent arcs.\n')
+        
+        print('It is in this arc the crew begins to discuss the damage sustained by the Going Merry in past arcs,')
+        print('especially Skypiea, and make the decision to find a shipwright that they can rely on to keep')
+        print('the Merry in shape for the following journey. This search for a new crew member leads them to an')
+        print('island called Water 7.\n')
+        
+    elif which_to_describe == str(17):
+        
+        print('\nWater 7 is an island that specializes in ship building, as the entire city forms a coexisting')
+        print('relationship with the water around them, such as using it to provide energy, regulating transportation')
+        print('to boats and rivers instead of cars and roads (a la Venice), and the existence of the most skilled')
+        print('shipwrights in history, including the man who constructed Gol D. Roger\'s ship, the Oro Jackson.\n')
+        
+        print('The Straw Hats are introduced to an eccentric cyborg powered by cola, Franky, who at first seems to brood')
+        print('trouble for the crew. After attacking Usopp, Luffy dismantles Franky\'s gang and earns the respect of')
+        print('the cyborg. We flash back to see Franky\'s past, learning under the shipwright Tom, who created')
+        print('the Oro Jackson. Tom sacrificed his life to protect the blueprints of Pluton, an Ancient')
+        print('Weapon that was mentioned in Alabasta, which was passed down through the shipwrights of Water 7')
+        print('for centuries. We also see the hunting down of Tom further enforcing that the World Government')
+        print('is a dangerous organization, and what the Straw Hats do is more and more justified.\n')
+        
+        print('Franky being a shipwright declares the Going Merry is in dire shape, and it\'s not likely it')
+        print('can be used much longer. Luffy is open to the idea of a new ship, which Usopp takes offense')
+        print('to, and considers his willingness to move on from their ship as the equivalent of giving up')
+        print('on a friend. The audience can sympathize with Usopp as we see the Merry\'s significance to him')
+        print('in Syrup Village, and Usopp decides to leave the crew despite knowing there\'s nothing to be done.')
+        print('We then see Usopp challenge Luffy, and lose with ease, signifying his departure from the Straw Hats,')
+        print('much to Luffy\'s chagrin.\n')
+        
+        print('Although Usopp does reunite with the crew, it is not without great care from Zoro, stating')
+        print('"We\'re not kids playing pirates", and telling Luffy that if he accepts Usopp back without')
+        print('hearing an apology first, Zoro will be the next one to leave. This shows that despite Zoro')
+        print('staying fiercely loyal to Luffy, he only does so because of the respect he has for Luffy.')
+        print('It is made clear here that if Luffy strays from his path or doesn\'t stick to his beliefs,')
+        print('Zoro will no longer be a Straw Hat.\n')        
+        
+        print('It is no surprise that in the arc following Aokiji\'s explanation of Robin\'s importance to the')
+        print('Straw Hat\'s infamy, Robin ends up being the focal point of conflict. We learn she has been in')
+        print('league with a World Government agency known as CP9, and she splits from the rest of the crew.')
+        print('Her past is also shown a bit more, as she has knowledge of CP9\'s capability of executing a')
+        print('Buster Call, a command to summon an island-destroying fleet at the press of a button. It is this')
+        print('knowledge of destruction that the World Government is capable of that pushed Robin to abandon the Straw')
+        print('Hats, as she believes if she stays with them they will meet an untimely end, hinting that she may have')
+        print('seen a similar occurence happen already.\n')
+        
+        print('Luffy refuses to believe that Robin left on her own accord, and is adamant to get her back')
+        print('on the crew. Thus, the recovery mission for Nico Robin begins.\n')
+        
+    elif which_to_describe == str(18):
+        
+        print('\nEnies Lobby can be viewed as a continuation of Water 7. The Straw Hats have learned that Robin')
+        print('felt she had to abandon them to ensure their own safety while foregoing her own, an unacceptable')
+        print('notion to Luffy.\n')
+        
+        print('We are finally shown Robin\'s past, detailing that she hailed from a land of scholars, Ohara. They')
+        print('were a peaceful people, who dedicated themselves to preserving and sharing knowledge through the')
+        print('world. It is through the Oharans that Robin learned to read Poneglyphs, as she was trained since')
+        print('a very young age. While perfomring studies, the Oharans began to uncover details about the Void')
+        print('Century, or a time period before the emergence of the World Government that they work tirelessly')
+        print('to hide, signifying a possible better world before the dominance of the World Government was instilled.')
+        print('When learning that Ohara has made discoveries of the Void Century, a Buster Call is enacted on Ohara,')
+        print('as ships showed up within 30 minutes and left the island in the sea. Robin was the only survivor of this')
+        print('genocide, as she was saved by a giant and Aokiji. Her survival and knowledge of the Void Century,')
+        print('as well as ability to read Poneglyphs, prompted the Government to place a gargantuan bounty on her,')
+        print('earning her the reputation that the audience hears in previous arcs.\n')
+    
+        
+        print('After Robin explains to Luffy why she can\'t live the life she wants to, Luffy orders Usopp, under the')
+        print('guise of Sogeking as to not have to confront Luffy yet, to shoot a hole through the World Government')
+        print('flag, declaring war on the world and putting a bigger target on his back than Robin ever could.\n')
+        
+        print('Following this, Robin finally forgives herself and accepts help from the Straw Hats. Every crew member')
+        print('shows development in their strength, unleashing new moves, including Luffy\'s Gear 2 and 3. Franky joins the')
+        print('crew, and the size of the Straw Hats continues to grow. We see the threat level of the Straw Hats also')
+        print('grow exponentially, as Luffy\'s bounty puts him in the territory of the Warlords of the Sea. The Going')
+        print('Merry finally reaches it\'s breaking point, as the crew gives it a Vikings funeral. They replace the')
+        print('Going Merry with a ship bearing a similar figurehead, the Thousand Sunny.\n') 
+        
+        print('The audience learning of the Void Century and the existence of an Ancient Kingdom that was overthrown')
+        print('and erased by its enemies (seemingly the World Government), means the vague morality surrounding the World')
+        print('Government begins to fade. The closer Luffy gets to the top, the more the guise that the Government')
+        print('works so hard to keep up begins to crack, as their patterns of oppression and corruption are now the norm')
+        print('rather than the exception.\n')
+        
+    elif which_to_describe == str(19):
+        
+        print('\nThriller Bark takes place on an abandoned island straight out of a horror movie. Checking every cliche in')
+        print('the book, we see zombies, ghosts, ghouls, human-made animals, and even undead skeletons in the form of our')
+        print('newest Straw Hat, Brook.\n')
+        
+        print('Brook is a talking skeleton who we find alone, singing to himself on a ship floating aimlessly around the island.')
+        print('It is here we learn about his past, as he was a musician for his previous crew before they were bested by the')
+        print('Grand Line, and they all persished. Brook, however, ate the Revive-Revive Fruit, meaning his soul returned to')
+        print('his body after he died.\n')
+        
+        print('After Brook tags along with the crew, the Straw Hats meet a man named Gecko Moria, a Warlord of the Sea who')
+        print('possesses the Shadow-Shadow Fruit, allowing the capture of a person\'s shadow and holding their soul for ransom.')
+        print('Moria has been building an army to return to the notoriety he once had, with his magnum opus being the body')
+        print('of the giant, Oars.\n')
+        
+        print('We see Kuma show up once more, this time explaining his Paw-Paw Fruit, and using it to remove the pain Luffy endures')
+        print('through his fight with Moria and his army, and gives a portion of it to Zoro. Zoro almost dies from this exchange, and')
+        print('his loyalty to his captain is solidified as he doesn\'t let anyone else learn or acknowledge what he did.')
+        print('Zoro also battles the corpse of Ryuma, a legendary samurai that Moria defiled to add to his army. Zoro')
+        print('bests the samurai and earns his sword, Shusui, which adds another legendary sword to his arsenal.\n')
+        
+        print('After the battle has concluded and the crew has their customary feast to celebrate, Brook explains that the pirates')
+        print('Laboon, the whale the Straw Hats first encountered when entering the Grand Line, is waiting for is his crew')
+        print('that met their demise before Brook\'s death. He explained how Laboon would follow him to listen to the music')
+        print('Brook would play, and Luffy promises to reunite them once more. Brook officially joins the Straw Hats as their')
+        print('musician.\n')
+        
+    elif which_to_describe == str(20):
+        
+        print('\nSabaody Archipelago is a collection of interconnected islands that signifies the halfway point between the entrance')
+        print('of the Grand Line and the location of the One Piece. The area is called the Red Line, due to the large mountain range')
+        print('that spans the One Piece world.\n')
+        
+        print('When entering a bar, Luffy and his crew encounter Silvers Rayleigh, the former right hand man of Gol D. Roger.')
+        print('Upon sparking conversation, Luffy refuses to get any help or clues regarding the One Piece, as Rayleigh is a man')
+        print('who could divulge every secret they want to know.')
+        print('We see Luffy\'s path to King of the Pirates solidified once again, this time through the approval of Rayleigh.')
+        print('Luffy\'s refusal to "spoil his adventure" leads Rayleigh to believe Luffy posseses the same disposition as Roger,')
+        print('and he is hereby convinced by the rubber man\'s will.\n')
+        
+        print('We are introduced to other pirates who entered the world around the same time as Luffy, including Trafalgar Law,')
+        print('Eustass Kidd, Capone Bege, X Drake, and others who would later be labeled the Worst Generation. These characters')
+        print('would go on to garner massive prominence in the world in later arcs.\n')
+        
+        print('It is shown that the Celestial Dragons, descendants of those who formed the World Government, are a deployable and')
+        print('disguisting people. They use slaves to forego tasks like walking, simply riding around on the backs of their')
+        print('slaves as they crawl on their hands and knees. Racism is a large motivator for them, as we see Fishmen')
+        print('being treated as subhuman, and explaining why Fishmen such as Arlong would have deep rooted hatred for humans.')
+        print('Luffy shows his disdain for the Celestial Dragons by punching one in the face after it shot Hacchan, former')
+        print('member of the Arlong Pirates, for trying to save a mermaid from being sold into slavery.\n')
+        
+        print('Luffy\'s arrival at Sabaody Archipelago would alert the World Government after the crew\'s increased notoriety, and')
+        print('a new admiral, Kizaru, is showcased with his Glint-Glint Fruit, essentially allowing him to weaponize and turn into')
+        print('light. We see a man named Sentomaru as well, who is the operator and creator of Pacifistas, Government-created cyborgs')
+        print('to carry out their will. Sentomaru and Kuma arrive at the scene, with Kuma using his Paw-Paw Fruit')
+        print('to banish the Straw Hats from the island one by one, seemingly killing them, devastating Luffy as he watches until')
+        print('he falls to his knees and uncontrollably begs Kuma to stop.\n')
+        
+        print('We see a brief moment where Kuma whispers to Rayleigh, signifying that he actually just helped the Straw Hats')
+        print('by delivering them to safety on scattered islands, setting the stage for their reunion later on.')
+        print('The loyalties of Kuma are even more convoluded after these events, as we know already that Kuma has been')
+        print('involved with Luffy\'s dad and Revolutionary leader, Dragon, in some capacity.\n')
+        
+        print('By appearance to the audience and the rest of the world, the Straw Hat Pirates met their end in Sabaody Archipelago.\n')
+                
     else:
         
-        print('Not a valid input.\n')
+        print('\nNot a valid input.\n')
 
 ##################################################################################    
 def how_many_more(rating):
