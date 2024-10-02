@@ -648,7 +648,8 @@ def give_arc_description():
           '18. Enies Lobby\n' +\
           '19. Thriller Bark\n' +\
           '20. Sabaody Archipelago\n' +\
-          '21. Amazon Lily')
+          '21. Amazon Lily\n' +\
+          '22. Impel Down')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1117,6 +1118,29 @@ def give_arc_description():
         print('It is in Amazon Lily that Luffy hears of the battle between Blackbeard and Ace, his brother. After learning that Ace')
         print('has been captured by the World Government and is held in the maximum security prison, Impel Down, Luffy sets course')
         print('to save him immediately. Hancock goes with Luffy to help him.\n')
+        
+    elif which_to_describe == str(22):
+        
+        print('\nGoing back to the area of Enies Lobby, Luffy visits the biggest prison in the One Piece world in order to')
+        print('save Ace. The prison goes thousands of meters underwater, and has multiple levels designed to torment')
+        print('the prisoners depending on the severity of their crimes. While traversing the prison, Luffy meets many of his')
+        print('old foes, including Buggy, Crocodile, Mr. 3, and some new characters that have been mentioned, such as Jimbe, First')
+        print('Son of the Sea, who is also a close friend to Ace. We also meet Ivankov, the second in command to Dragon and the')
+        print('Revolutionary Army, as well as the leader of the Okama island Sanji finds himself sent to by Kuma.\n')
+        
+        print('As Luffy moves through Impel Down, he is poisoned and almost dies at the hands of the warden, Magellan, but is saved by')
+        print('Ivankov\'s Hormone-Hormone Fruit. Luffy also almost gets stopped while traversing through the levels on Impel')
+        print('Down, but is accompanied and helped repeadetly by Bon Clay. Bon Clay seemingly sacrifices himself so Luffy')
+        print('can escape, solidifying him as an ally for life to Luffy.\n')
+        
+        print('We learn here about Ace\'s loyalty to Whitebeard, and how he is a member of the Whitebeard Pirates. We also learn')
+        print('Whitebeard is the protector of Fishman Island, using his flag to deter any pirates who would mess with it. This')
+        print('exemplifies the kindness of Whitebeard, as Fishmen are discriminated against by the World Government, and')
+        print('we see Whitebeard protecting a people who need it the most.\n')
+        
+        print('Luffy releases the prisoners in order to cause chaos and hopefully divert attention away from Ace and his execution.')
+        print('The prison break releases many of Luffy\'s past and future enemies, and sets the stage for major participants in the')
+        print('following arc: Marineford.\n')      
                 
     else:
         
