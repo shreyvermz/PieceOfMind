@@ -647,7 +647,8 @@ def give_arc_description():
           '17. Water 7\n' +\
           '18. Enies Lobby\n' +\
           '19. Thriller Bark\n' +\
-          '20. Sabaody Archipelago')
+          '20. Sabaody Archipelago\n' +\
+          '21. Amazon Lily')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1090,6 +1091,32 @@ def give_arc_description():
         print('involved with Luffy\'s dad and Revolutionary leader, Dragon, in some capacity.\n')
         
         print('By appearance to the audience and the rest of the world, the Straw Hat Pirates met their end in Sabaody Archipelago.\n')
+        
+    elif which_to_describe == str(21):
+        
+        print('\nEach of the Straw Hats were sent away by Kuma in Sabaody Archipelago. Nami was sent to a Sky Island, Weatheria.')
+        print('Franky is sent to Karakuri Island, the birthplace of Vegapunk, who is the world\'s most renown scientist and')
+        print('plays a large role in later arcs. Sanji is sent to Momoiro Island, home of the Okamas. Usopp is sent to Boin')
+        print('Archipelago, a land of nature where all the plants and animals are greatly exaggerated in size. Brook is sent')
+        print('to Namakura Island where he is mistaken for Satan. Nico Robin is sent to Tequila Wolf in the East blue, and')
+        print('becomes a slave. Chopper is sent to the Torino Kingdom, and Zoro finds himself on Kuraigana Island with Perona,')
+        print('an antagonist in Thriller Bark, and his archnemesis: Mihawk.\n')
+        
+        print('The arc is named after the land where Luffy was sent, which is Amazon Lily. This island is a place of only women,')
+        print('and typically no men are allowed whatsoever. Here Luffy meets Boa Hancock, another Warlord of the Sea, and her Love-Love')
+        print('Fruit, which turns anyone who falls in love with her into stone. After trying this on Luffy and failing, she is disarmed')
+        print('and begins to trust him. After learning that Luffy assaulted a Celestial Dragon in Sabaody Archipelago, Hancock actually')
+        print('falls in love with Luffy.\n')
+        
+        print('Before gaining her trust, we learn of the nuances of arguably the most important combat skill in this world: Haki. We')
+        print('have seen instances of Observation Haki from people like Enel and his Mantra, and Armament Haki in the cases where Luffy')
+        print('gets hurt despite being made of rubber. The most important of all is when Luffy is found to have Color of the')
+        print('Supreme King, a rare type of Haki that Hancock also has. Not much information is provided on Color of the')
+        print('Supreme King, however, context tells us Luffy bearing it will be a major boost in combat.\n')
+        
+        print('It is in Amazon Lily that Luffy hears of the battle between Blackbeard and Ace, his brother. After learning that Ace')
+        print('has been captured by the World Government and is held in the maximum security prison, Impel Down, Luffy sets course')
+        print('to save him immediately. Hancock goes with Luffy to help him.\n')
                 
     else:
         
