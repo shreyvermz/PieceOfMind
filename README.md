@@ -78,7 +78,7 @@ spelled names.
 This function firstly gathers the total number of chapters and episodes contained in the database as a whole, and returns an average conversion of how many episodes Toei
 Animation put out for every corresponding chapter. In a perfectly efficient world, there would be an episode or less for each chapter in the manga.
 
-The second poriton of this function takes an inputted arc from the user, and returns the chapter-to-episode ratio for that specific case.
+The second portion of this function takes an inputted arc from the user, and returns the chapter-to-episode ratio for that specific case.
 The overall average will stay unchanging, but users can see which arcs were more susceptible to dragging out the source material. The more episodes there are per chapter,
 the more Toei Animations probably relied on unnecessarily long and extended episode renditions. This could have been implemented for any number of reasons, but the most common
 is that One Piece is a **weekly** anime. Unlike many that deliver a season every year or 2, One Piece has a quota to release an episode a week.
