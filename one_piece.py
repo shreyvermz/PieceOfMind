@@ -1270,6 +1270,10 @@ def give_arc_description():
         print('left an apology letter on a Poneglyph that the Straw Hats are shown by the royal family. We learn that Luffy can hear the')
         print('voices of the Sea Kings under Shirahoshi\'s control, leading the Sea Kings to tell Luffy that Gol D. Roger was also')
         print('able to "hear the voice of All Things".\n')
+        
+        print('The first appearance of another Emperor of the Sea, Big Mom, takes place in this arc and sets the stage for')
+        print('the Whole Cake Island arc, as Luffy declares war on Big Mom after wanting to place Fishman Island under his')
+        print('protection following the death of Whitebeard.\n')
 
                 
     else:
