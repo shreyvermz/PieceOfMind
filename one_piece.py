@@ -650,7 +650,9 @@ def give_arc_description():
           '20. Sabaody Archipelago\n' +\
           '21. Amazon Lily\n' +\
           '22. Impel Down\n' +\
-          '23. Marineford')
+          '23. Marineford\n' +\
+          '24. Post-War Arc\n' +\
+          '25. Return to Sabaody Archipelago')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1155,7 +1157,7 @@ def give_arc_description():
         print('and considers him his true father. We see this exemplfied when Whitebeard himself appears to save Ace. The world also')
         print('learns that Luffy is the son of Dragon and grandson of Garp, furthering his notoriety.\n')
         
-        print('The war escalates as Whitebeard arrives with his entire fleet and his world-shattering(literally) Devil Fruit, allowing')
+        print('The war escalates as Whitebeard arrives with his entire fleet and his world-shattering (literally) Devil Fruit, allowing')
         print('him to crack the very fabric of reality. We learn from Marine dialogue that we\'re lucky Whitebeard has the fruit, as ')
         print('he has the power to destroy the world on a whim. The Marines engage with waves of pirates, causing chaos and allowing for')
         print('Luffy to make his entrance.\n')
@@ -1179,6 +1181,54 @@ def give_arc_description():
         
         print('We learn that Kuma was indeed helping the Straw Hats in Sabaody Archipelago, as Kuma is revealed to be a Revolutionary')
         print('under the command of Dragon, Luffy\'s dad.\n')
+        
+    elif which_to_describe == str(24):
+        
+        print('\nWitnessing the Straw Hats suffer defeat at Sabaody Archipelago, Luffy losing and almost dying in Impel Down to Magellan,')
+        print('and his failure to successfully save Ace makes one thing clear to the audience: the Straw Hats need to get stronger. With')
+        print('the tumultuous events at Marineford, the time period following it is called the \'New Age\'.\n')
+        
+        print('The balance between Marines, pirates, and Warlords is unstable by this point with the loss of Warlords such as Jimbe')
+        print('and Blackbeard, as well as the death of an Emperor of the Sea: Whitebeard. Garp and Sengoku resign from their positions,')
+        print('with Aokiji being considered for Fleet Admiral. Many of the pirates at Marineford or who escaped from Impel Down cross')
+        print('the Red Line into the New World.\n')
+        
+        print('Following the death of Ace, we are given flashbacks of Luffy and Ace\'s childhood. Here we learn Luffy and Ace are')
+        print('not related by blood in any way, but rather Ace, Luffy, and the third brother briefly mentioned in Marineford, Sabo,')
+        print('declare their siblinghood by sharing their dreams and a cup of sake. We see that Sabo presumably died when the 3 were')
+        print('children, as he descended from a line of Nobles, containing him to a life of education and conformity. Trying to escape')
+        print('from this fate and find his calling at sea, he departs from his hometown and is shot down by the World Government due')
+        print('to a concurrent arrival of a World Noble who requested the child be killed.\n')
+
+        print('Luffy, clearly worn down by experiencing so much trauma in such a short time, has a talk with Jimbe, crying and')
+        print('declaring he is too weak to save his friends, and doubts his ability to continue his journey to be King of the')
+        print('Pirates. Jimbe displays his newfound friendship by calming Luffy down and getting him prepared for the New Age.\n')
+        
+        print('Luffy devises a plan to meet with the crew again in 2 years, signaling to the Straw Hats by making the news')
+        print('and displaying a tattoo: "3D2Y", with the 3D crossed out, meaning to meet again in 2 years instead of 3 days.')
+        print('Chopper begins studying medicine in Torino Kingdom. Sanji learns how to walk on air in order to run away')
+        print('from the transgender women on Okama Island. Nami begins to learn how to manipulate and weaponize weather')
+        print('on Weatheria, a sky island. Brook composes music for the tribe that believes he is Satan. Robin joins Dragon')
+        print('and the Revolutionary Army in Baltigo. Franky begins to study Dr. Vegapunk\'s weaponry and technology on')
+        print('Karakuri Island, the place of Vegapunk\'s birth. Usopp undergoes survival training under Heracles to survive')
+        print('the overgorwn Boin Archipelago. Zoro begins training under Mihawk on Kuraigana Island. Luffy begins to train')
+        print('with Rayleigh, the second-hand-man to Gol D. Roger, and learns how to properly use his Haki.\n')
+        
+        print('The next time we see the Straw Hats, they will all have become more capable. From this point in the story,')
+        print('the Straw Hats are a true force to be reckoned with, and are more capable of helping those in need.')
+        print('Rather than the Straw Hats being the protected, they are now the protectors.\n')
+        
+    elif which_to_describe == str(25):
+        
+        print('\nThe Return to Sabaody Archipelago marks the major "time skip" in this show. This arc shows the reunion of the')
+        print('Straw Hats after they took 2 years to hone their skills. While a very short arc, it is important')
+        print('to show the development of Luffy, as the events at Sabaody were devastating for him the first time,')
+        print('as the Straw Hats were bested by Kuma with ease. We see Luffy fighting an upgraded Pacifista upon his')
+        print('return, putting him in a familiar situation. This time, however, the Pacifista is unable to even touch Luffy,')
+        print('and Luffy defeats the cyborg in one Haki-coated punch.\n')
+        
+        print('It is also in this arc we are introduced to new designs for character and a shift in art style from the author,')
+        print('Eichiro Oda.\n')
                 
     else:
         
