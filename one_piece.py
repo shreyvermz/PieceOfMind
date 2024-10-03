@@ -1262,8 +1262,10 @@ def give_arc_description():
         print('that spurred Hordy Jones, and even Arlong, to be as ruthless and inconsiderate as they were.\n')
         
         print('Luffy is able to free Shirahoshi and defeat Hordy Jones, releasing his grip on Fishman Island. Luffy also makes strides')
-        print('to repair the human bond with Fishman, as he does what Fisher could not and accepts a blood transfusion')
-        print('from Jimbe. Luffy then asks Jimbe to join the Straw Hats, an offer that is declined but revisited in Whole Cake Island.\n')
+        print('to repair the human bond with Fishman, as he does what Fisher could not and accepts a blood transfusion from Jimbei.')
+        print('This act, paired with the selflessness and help provided by the Straw Hats, lowers tensions between humans and Fishmen,')
+        print('with the residents of Fishmen Island once again being open to human-Fishman relations, and being more accepting of humans.')
+        print('Luffy then asks Jimbe to join the Straw Hats, an offer that is declined but revisited in Whole Cake Island.\n')
         
         print('This is the arc we get the first mention of a monumental character: Joy Boy. Robin is told that Joy Boy built a giant')
         print('ship intended to take the inhabitants of Fishman Island to the surface, however he failed to deliver on the promise and')
