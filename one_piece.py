@@ -649,7 +649,8 @@ def give_arc_description():
           '19. Thriller Bark\n' +\
           '20. Sabaody Archipelago\n' +\
           '21. Amazon Lily\n' +\
-          '22. Impel Down')
+          '22. Impel Down\n' +\
+          '23. Marineford')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1141,6 +1142,43 @@ def give_arc_description():
         print('Luffy releases the prisoners in order to cause chaos and hopefully divert attention away from Ace and his execution.')
         print('The prison break releases many of Luffy\'s past and future enemies, and sets the stage for major participants in the')
         print('following arc: Marineford.\n')      
+        
+    elif which_to_describe == str(23):
+        
+        print('\nMarineford marks the first major turn of events and transfers of power in the One Piece world. After breaking out')
+        print('of Impel Down, the Marines decide to move up Ace\'s execution as to not let Luffy get a chance to save him.')
+        print('Ace is put on a stage for the world to see, and the event is broadcasted as well. His post for execution is guarded')
+        print('by 3 Admirals: Aokiji, Kizaru, and Akainu, holder of the Magma-Magma Fruit. Luffy and Ace\'s grandpa, Garp, is also present.\n')
+        
+        print('It is revealed that Ace is actually the son of Gol D. Roger, and followed a childhood of violence due to the condemnation')
+        print('of any offspring of the King of the Pirates by the general public. We also learn that Ace respects Whitebeard immensly')
+        print('and considers him his true father. We see this exemplfied when Whitebeard himself appears to save Ace. The world also')
+        print('learns that Luffy is the son of Dragon and grandson of Garp, furthering his notoriety.\n')
+        
+        print('The war escalates as Whitebeard arrives with his entire fleet and his world-shattering(literally) Devil Fruit, allowing')
+        print('him to crack the very fabric of reality. We learn from Marine dialogue that we\'re lucky Whitebeard has the fruit, as ')
+        print('he has the power to destroy the world on a whim. The Marines engage with waves of pirates, causing chaos and allowing for')
+        print('Luffy to make his entrance.\n')
+        
+        print('We see the Blackbeard pirates enter the scene, taking advantage of the chaos and possessing fresh new recruits comprising')
+        print('of highly dangerous prison breakouts from Impel Down. The Blackbeard Pirates gang up on Whitebeard, taking advantage')
+        print('of him being crippled by a life-threatening disease, and the fact that he was already stabbed from behind. After various')
+        print('gunshot, cannonball, and knife wounds, Whitebeard finally dies while staying on his two feet, declaring the One Piece is real')
+        print('to stir up chaos in his last moments. The passing of Whitebeard left many islands unprotected, including Fishman Island.\n')
+        
+        print('Whitebeard\'s death and Ace\'s rescue occur almost simultaneously, and we see the Admiral Akainu take advantage of a distraught')
+        print('Ace. With an oppurtunity to escape, Ace hears Akainu taunting his idol, sending him to a fury of rage and consequentially')
+        print('ending his life. Holding a dying Ace in his arms, Luffy goes into state of shock, unable to move or react to the environment')
+        print('around him. Shortly before dying, Ace mentions Sabo, the third brother of Luffy and Ace, and a character who would be')
+        print('a vital character in later arcs.\n')
+        
+        print('After killing Whitebeard, Blackbeard is revealed to have stolen his Devil Fruit powers, allowing him to use 2 Devil Fruit powers')
+        print('at once, previously established in the story to be impossible. Not only does he have 2 fruits, these are 2 of the most')
+        print('powerful fruits an individual could have. This would be the main shift of power in the world to result from this arc, as')
+        print('Blackbeard and his crew ascends to one of, if not the most, dangerous and influential competitors for the Straw Hats.\n')
+        
+        print('We learn that Kuma was indeed helping the Straw Hats in Sabaody Archipelago, as Kuma is revealed to be a Revolutionary')
+        print('under the command of Dragon, Luffy\'s dad.\n')
                 
     else:
         
