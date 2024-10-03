@@ -652,7 +652,8 @@ def give_arc_description():
           '22. Impel Down\n' +\
           '23. Marineford\n' +\
           '24. Post-War Arc\n' +\
-          '25. Return to Sabaody Archipelago')
+          '25. Return to Sabaody Archipelago\n' +\
+          '26. Fishman Island')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1229,6 +1230,47 @@ def give_arc_description():
         
         print('It is also in this arc we are introduced to new designs for character and a shift in art style from the author,')
         print('Eichiro Oda.\n')
+        
+    elif which_to_describe == str(26):
+        
+        print('\nFishman Island takes place in the depths of the New World, a city enclosed by a transparent exterior, and allowing')
+        print('for a view of the ocean while also allowing for inhabitants to breathe.\n')
+        
+        print('We see the abilities the Straw Hats have developed over their 2 year training period. Luffy has gained considerable')
+        print('control over the 3 types of Haki, as well as mastery over using his Devil Fruit. Zoro becomes stronger and faster') 
+        print('and learns about the existence of Haki after training under the world\'s greatest swordsman: Mihawk.')
+        print('Nami has a new weapon that is able to influence the weather to a greater degree, as well as furthering her')
+        print('understanding of the weapon as well. Usopp upgraded his slinghsot and uses oversized and deadly plants from')
+        print('the Boin Archipelago, as well as making strides in the sense of his bravery. Sanji was able to develop a technique')
+        print('shown by CP9, sky walking, and also is aware of the existence of Haki. Chopper develops mastery over his Devil')
+        print('Fruit power, able to control his most deadly forms. Robin furthers Devil Fruit powers and learns how to make exact')
+        print('clones of herself. Franky adds on to his cyborg body, now able to shoot lazers like Kizaru and Pacifistas, and also')
+        print('added Transformers-esque vehicles to the docking bay of the Thousand Sunny. Brook discovers that the true power')
+        print('of his Devil Fruit allows him to remove his soul from his body at any time, as well as starting a tour of the Grand')
+        print('Line to display his music chops.\n')
+        
+        print('Robin provides more explanations of Ancient Weapons mentioned in past arcs, noting there are three in existence named')
+        print('Poseidon, Pluton, and Uranus. When consulting with the Mermaid Princess, Shirahoshi, Robin learns that Shirahoshi')
+        print('is actually the ancient weapon dubbed Poseidon, due to her ability to control the gargantuan Sea Kings roaming the area.')
+        print('Shirahoshi requests help from the Straw Hats regarding Hordy Jones, a violent Fishman cut from the same cloth as Arlong.\n')
+        
+        print('The motivation for Hordy Jones\' brutal ways are shown through the trangressions against Fishmen, and how racism')
+        print('develops internalized anger and reactionary characters. The icon of the Sun Pirates, or Fishmen who banded together')
+        print('to support each other, Fisher Tiger, has his past shown. A Fishman who tried to befriend humans, he was only repayed')
+        print('with discrimination and was enslaved. He was famous for releasing slaves from Marie Geoise, the home of the Celestial')
+        print('Dragons, but died because he refused blood transfusion from a human, out of spite. Fisher Tiger is the character')
+        print('that spurred Hordy Jones, and even Arlong, to be as ruthless and inconsiderate as they were.\n')
+        
+        print('Luffy is able to free Shirahoshi and defeat Hordy Jones, releasing his grip on Fishman Island. Luffy also makes strides')
+        print('to repair the human bond with Fishman, as he does what Fisher could not and accepts a blood transfusion')
+        print('from Jimbe. Luffy then asks Jimbe to join the Straw Hats, an offer that is declined but revisited in Whole Cake Island.\n')
+        
+        print('This is the arc we get the first mention of a monumental character: Joy Boy. Robin is told that Joy Boy built a giant')
+        print('ship intended to take the inhabitants of Fishman Island to the surface, however he failed to deliver on the promise and')
+        print('left an apology letter on a Poneglyph that the Straw Hats are shown by the royal family. We learn that Luffy can hear the')
+        print('voices of the Sea Kings under Shirahoshi\'s control, leading the Sea Kings to tell Luffy that Gol D. Roger was also')
+        print('able to "hear the voice of All Things".\n')
+
                 
     else:
         
