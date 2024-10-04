@@ -653,7 +653,8 @@ def give_arc_description():
           '23. Marineford\n' +\
           '24. Post-War Arc\n' +\
           '25. Return to Sabaody Archipelago\n' +\
-          '26. Fishman Island')
+          '26. Fishman Island\n' +\
+          '27. Punk Hazard')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1276,7 +1277,37 @@ def give_arc_description():
         print('The first appearance of another Emperor of the Sea, Big Mom, takes place in this arc and sets the stage for')
         print('the Whole Cake Island arc, as Luffy declares war on Big Mom after wanting to place Fishman Island under his')
         print('protection following the death of Whitebeard.\n')
-
+        
+    elif which_to_describe == str(27):
+        
+        print('\nPunk Hazard takes place on an island that was already unstable due to failed experiments by Dr. Vegapunk, which')
+        print('we learn involved the creation of artificial beings such as dragons. Disaster struck one more time before')
+        print('The Straw Hat\'s arrival, as seen following the Marineford conflict. As Fleet Admiral Sengoku retired following')
+        print('the Marine\'s failure, Admirals Aokiji and Akainu fought over his vacated position, leaving half of Punk Hazard')
+        print('frozen over and covered in snow, and the other half volcanic and uninhabitable.\n')
+        
+        print('The Worst Generation is officially monikered, as it refers to a group of pirates entering the sea around the')
+        print('same time as Luffy, and it includes a new Warlord of the Sea, Trafalgar Law. Luffy and Law meet in Punk Hazard,')
+        print('and they strike up an alliance that lasts for subsequent arcs. We learn about Law\'s Devil Fruit as well, the Op-Op')
+        print('Fruit, allowing teleportation and the ability to cut without opening wounds, similar to how Buggy takes himself apart.\n')
+        
+        print('The main villain of this arc, Caesar Clown, was a competitor of Vegapunk and resorted to the creation of mass-murder')
+        print('weapons and human expirementation in hopes to pass his rival. The Straw Hats learn Caesar has been practicing gigantification')
+        print('on children in his lab on Punk Hazard, with Law explaining these experiments would be useful to the World')
+        print('Government, as they were researching gigantification in order to develop a stronger army. Caesar was also shown to')
+        print('create artifical Devil Fruits called SMILES, and they can only be made in Zoan forms.\n')
+        
+        print('Luffy defeating Caesar meant his ability to create giants was unavailabele, leading to Big Mom, an Emperor of the Sea,')
+        print('attempting to steal a captured Caesar from the Straw Hats. Big Mom is also involved in another topic explained')
+        print('by Law, the Underworld. He states Donquixote Doflamingo is an extremely powerful Underworld Broker, calling himself')
+        print('the Joker, and partakes in illegal trading with several important world figures. We see Doflamingo in the Dressrosa arc.\n')
+        
+        print('The connection between Devil Fruits and Haki are explored more. We see that Armament Haki allows for anyone to combat')
+        print('Logia fruit users, disregarding what element their body is made of, and cutting through all the same. This sets the')
+        print('stage for non-Devil Fruit users to be explicably able to best Devil Fruit users, and begins the notion that Haki is the')
+        print('most important aspect to a character\'s strength. We also learn that when a Devil Fruit user dies, their fruit regrows in')
+        print('the place of a normal fruit somewhere in the world, allowing for someone else to gain the same power again, but two can')
+        print('never have it at once.\n')
                 
     else:
         
