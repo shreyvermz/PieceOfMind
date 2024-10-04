@@ -655,7 +655,8 @@ def give_arc_description():
           '25. Return to Sabaody Archipelago\n' +\
           '26. Fishman Island\n' +\
           '27. Punk Hazard\n' +\
-          '28. Dressrosa')
+          '28. Dressrosa\n' +\
+          '29. Zou')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1369,6 +1370,30 @@ def give_arc_description():
         print('to everyone else around them so they can maintain order and push the system forward. Luffy\'s "system" is himself, as we see repeadetly')
         print('that Luffy doesn\'t crave power, he craves freedom for himself and for those who show him and the world kindness. This quote by Fujitora,')
         print('to me, is Oda directly talking to the reader, saying that to be sincere, to be yourself, is the best way to share your light with the world.\n')
+        
+    elif which_to_describe == str(29):
+        
+        print('\nThe Zou arc serves as a bridge in between Dressrosa and Whole Cake Island, while also setting the stage for the Wano Country arc that follows.')
+        print('Zou introduces us to a behemoth of an elephant named Zunesha, who has been walking the world for centuries, tall enough that only the bottom of')
+        print('their legs are submerged in the ocean. On the back of Zunesha, we find a town named Zou, thriving as it is protected from the sea by Zunesha, who')
+        print('also bathes themselves twice a day, simulating rainfall and bringing resources from the sea up to the people of Zou. The inhabitants of Zou are')
+        print('shown to be a tribe called the Mink, humanoid animals mentioned in Sabaody Archipelago.\n')
+        
+        print('When the Straw Hats arrive, a suboordinate of Kaido, Jack, threatens to murder the Minks and destroy their land if they do not turn over a')
+        print('member of their tribe. After not breaking and almost being wiped out, they reveal they have been hiding the samurai, Raizo, the whole time,')
+        print('and were fine with being wiped out if it meant protecting their friend. Momonosuke, a child from Wano Country, is revealed to have traveled')
+        print('with Gol D. Roger on his ship, as he was the heir to Wano from his father, Kozuki Oden. Oden had sailed with Roger to Laugh Tale.')
+        print('Impressed with his new friends, Luffy establishes a Ninja-Mink-Pirate-Samurai Alliance that lasts until Wano Country.\n')
+        
+        print('In her attempt to capture Caesar Clown, it is shown that Big Mom also captures Sanji. It is revealed that Sanji is the child of a man named')
+        print('Vinsmoke Judge, who heads a powerful army known as Germa 66, that is also heavily involved with the Underworld. Although his past isn\'t fully')
+        print('disclosed yet, Sanji\'s reaction to the Vinsmoke name catching up to him shows that he has negative associations with them.\n') 
+        
+        print('Vital information on how to locate the One Piece is revealed. The existence of 4 Road Poneglyphs is detailed, and how the 4 together will give')
+        print('the coordinates to Laugh Tale. The Straw Hats find their first Road Poneglyph on Zou. The others are spread out through the world, with one being')
+        print('lost, one being in possession of Kaido, and another in the possession of Big Mom. The path to find it gets muddier for the Straw Hats, however,')
+        print('as it is described that the remnants of the Whitebeard Pirates were wiped out by Blackbeard, who was now an Emperor of the Sea.\n')       
+        
                 
     else:
         
@@ -1413,6 +1438,10 @@ def menu():
         print('6. Display Chapter to Episode Ratio')
         
         print('7. Give Arc Description (work in progress)')
+        
+        # a quote returner? maybe using the arc sorting tool we can return quotes from a certain arc
+        
+        # function 7 has made this longer than it should be tbh, might not be much need to add anything else
         
         choice = input('Choose a number to use a function: ')
         # quitting the program
