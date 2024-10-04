@@ -654,7 +654,8 @@ def give_arc_description():
           '24. Post-War Arc\n' +\
           '25. Return to Sabaody Archipelago\n' +\
           '26. Fishman Island\n' +\
-          '27. Punk Hazard')
+          '27. Punk Hazard\n' +\
+          '28. Dressrosa')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1282,7 +1283,7 @@ def give_arc_description():
         
         print('\nPunk Hazard takes place on an island that was already unstable due to failed experiments by Dr. Vegapunk, which')
         print('we learn involved the creation of artificial beings such as dragons. Disaster struck one more time before')
-        print('The Straw Hat\'s arrival, as seen following the Marineford conflict. As Fleet Admiral Sengoku retired following')
+        print('the Straw Hat\'s arrival, as seen following the Marineford conflict. As Fleet Admiral Sengoku retired following')
         print('the Marine\'s failure, Admirals Aokiji and Akainu fought over his vacated position, leaving half of Punk Hazard')
         print('frozen over and covered in snow, and the other half volcanic and uninhabitable.\n')
         
@@ -1308,6 +1309,66 @@ def give_arc_description():
         print('most important aspect to a character\'s strength. We also learn that when a Devil Fruit user dies, their fruit regrows in')
         print('the place of a normal fruit somewhere in the world, allowing for someone else to gain the same power again, but two can')
         print('never have it at once.\n')
+        
+    elif which_to_describe == str(28):
+        
+        print('\nAfter learning about Doflamingo and his role in the Underground through the discovery of the SMILES operation, the')
+        print('Straw Hats head to Dressrosa. Dressrosa is a place reminiscent of the Renaissance era, with an emphasis on arts')
+        print('and performance. Besides humans, the audience sees a population of puppets that seemingly coexist with the people.')
+        print('On the outside looking in, not much seems to be peculiar about the town.\n')
+        
+        print('A tournament is held with the intent of drawing Luffy in using the reincarnation of Ace\'s Devil Fruit as the prize.')
+        print('We learned in the previous arc, following a Devil Fruit-holder\'s death, the fruit they had takes the place of another')
+        print('normal fruit elsewhere in the world. Luffy enters the event with a gray mustache, sunglasses, and changes his alias to Lucy.')
+        print('Before partaking in the finale, Luffy learns that his other brother, Sabo, is in fact alive, and is the second-in-command')
+        print('under Luffy\'s father, Dragon, in the Revolutionary Army. Sabo tells Luffy he will win and eat the fruit for Ace, and promises')
+        print('nobody else will be able to.\n')
+        
+        print('The audience is shown Law\'s backstory, and why he wanted to form an alliance with Luffy. Doflamingo was the brother of')
+        print('Law\'s mentor, Corazon. While bearing similar strength, Corazon was the complete opposite person as Doflamingo. Caring,')
+        print('kind, and considerate, Law admired him in his youth. After Law ate the very important Op-Op Fruit as a child, Doflamingo')
+        print('set out to kill Law in order to obtain the fruit in its regrowth. Corazon protects Law with his life, dying in the process,')
+        print('and instilling a hatred for Doflamingo in Law.\n')
+        
+        print('The Donquixote and Nefertari families are revealed to be direct descendants of the creators of the World Government, as')
+        print('we see Doflamingo was raised by considerate parents, yet retaliation from non-Celestials radicalized the young boy, leading')
+        print('him to kill his father after he resigned as a Celestial Dragon, and begin a life dedicated to bringing others misery.\n')
+        
+        print('The puppet-people that were first seen coexisting with the humans of Dressrosa are revealed to have been humans once')
+        print('themselves, with Doflamingo essentially regulating them to slave labor, unable to even go home to their families or')
+        print('let others know of their existence. We also learn of the Tontatta Tribe, a subset of the Dwarves species. Their existence')
+        print('is hidden to the people of Dressrosa, as they avoided notoriety as to not be exploited by Doflamingo.\n')
+        
+        print('Moving to the final battle, we learn that Law also carries the "Will of D.", with his full name being Trafalgar D. Law.')
+        print('During a flashback to Corazon, we learn those with the Will of D. are described as the "natural enemies of God" by the')
+        print('World Government, exemplifying their caution regarding those with the Will of D. We learn Doflamingo has Color of the Supreme')
+        print('King as well when him and Luffy clash, emitting a sort of black lightning that can be felt for a wide area. Luffy activates')
+        print('a new form developed under Rayleigh during his training, Gear 4th. We also see Zoro use Armament Haki in this arc, as well')
+        print('as Usopp activating Observation Haki. As shown by Doflamingo, we learn that Devil Fruits don\'t grant their full power')
+        print('to a user right away, allowing for the fruit to be "awakened", leading it to affect things other than the user themselves.')
+        print('This is demonstrated as Doflamingo is able to change the environment around him into strings as he struggles to beat')
+        print('Luffy\'s new form.\n')
+        
+        print('Following the defeat of Doflamingo, seperate groups witnessing Luffy\'s victory pledge their allegiance to him, forming the')
+        print('Straw Hat Fleet, to which Luffy insists for the members to do whatever they want. Law attempts to end his alliance with Luffy,')
+        print('prompting Luffy to refuse and keep Law as his ally. We see a Marine Admiral, Fujitora, being the first Admiral to express')
+        print('positive sentiment to Luffy, as he states arguably my favorite dialogue of the series:\n')
+        
+        print('"You\'re a fool Straw Hat, but an honest one. I suppose I shouldn\'t be surprised everyone wants to take your side. What kind')
+        print('of a man are you, I wonder? What\'s the color of your hair, the shape of your eyes? What does your smile look like?')
+        print('What a pity, I wish I could use these eyes one last time to see the face of a man like you. I\'m sure it\'s filled to the brim')
+        print('with kindness."\n')
+        
+        print('This quote provides some level of humanization to the Marines, showing that alongside Garp, there are members who find pride')
+        print('in doing the honorable thing. This quote perfectly summarizes Luffy and his appeal to me. To view things simply can make you')
+        print('lack nuance, but it can also circumvent doubts of one having pure intentions. When the common person shares time with Luffy, they don\'t')
+        print('wonder if he is using those he is helping to further his own goals. His irrationality exemplifies the commitment he shows to values')
+        print('he carries through the show. On the outside, this irrationality can make Luffy seem volatile and stupid. However, I would argue that')
+        print('Luffy\'s actions are perfectly rational, and it is not the volatility of Luffy that brings chaos where he goes, but it\'s the world')
+        print('around him reacting to his sincerity that causes chaos. The world is made to conform, made to shape people into an identity that is cohesive')
+        print('to everyone else around them so they can maintain order and push the system forward. Luffy\'s "system" is himself, as we see repeadetly')
+        print('that Luffy doesn\'t crave power, he craves freedom for himself and for those who show him and the world kindness. This quote by Fujitora,')
+        print('to me, is Oda directly talking to the reader, saying that to be sincere, to be yourself, is the best way to share your light with the world.\n')
                 
     else:
         
