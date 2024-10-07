@@ -656,7 +656,9 @@ def give_arc_description():
           '26. Fishman Island\n' +\
           '27. Punk Hazard\n' +\
           '28. Dressrosa\n' +\
-          '29. Zou')
+          '29. Zou\n' +\
+          '30. Whole Cake Island\n' +\
+          '31. Wano Country')
 
     which_to_describe = input('Choose the arc to receive a summary on: ')
 
@@ -1392,8 +1394,68 @@ def give_arc_description():
         print('Vital information on how to locate the One Piece is revealed. The existence of 4 Road Poneglyphs is detailed, and how the 4 together will give')
         print('the coordinates to Laugh Tale. The Straw Hats find their first Road Poneglyph on Zou. The others are spread out through the world, with one being')
         print('lost, one being in possession of Kaido, and another in the possession of Big Mom. The path to find it gets muddier for the Straw Hats, however,')
-        print('as it is described that the remnants of the Whitebeard Pirates were wiped out by Blackbeard, who was now an Emperor of the Sea.\n')       
+        print('as it is described that the remnants of the Whitebeard Pirates were wiped out by Blackbeard, who was now an Emperor of the Sea.\n') 
         
+    elif which_to_describe == str(30):
+        
+        print('\nEntering Whole Cake Island from Zou, the Straw Hats enter the realm of Totto Land, an archipelago spanning 35 small islands.')
+        print('The land is made out of treats and food, with the power of Big Mom\'s Soul-Soul Fruit, allowing her to break off a piece')
+        print('of her soul and give an inanimate object life. She uses this power with the intentions of making Totto Land a place that')
+        print('has at least one of all races of beings in the One Piece world. The beings brought to life by Big Mom are known as Homies.')
+        
+        print('Moving on from her home\'s geography, we are provided with information about Big Mom herself. She has been married 43 times,')
+        print('bearing 46 sons and 39 daughters. Most of her marriages were non-consensual, and her powerful status made men fear to resist')
+        print('her yearning to grow her family. We learn that Big Mom got her powers from her time living in an orphanage as a kid.')
+        print('It is heavily implied that she was able to attain these powers not from eating the Soul-Soul Fruit directly, but when')
+        print('a birthday party was thrown for her by the bearer of the fruit, and the caregiver of the orphanage, Big Mom fell into')
+        print('a fit of gluttony, not stopping at eating her gargantuan cake, but eating all other children of the orphanage, as well as')
+        print('the caretaker.\n')
+        
+        print('The main plotline in this arc is a side of inner conflict within Sanji we weren\'t shown before. We are shown the operations')
+        print('and past of Sanji\'s birth family, the Vinsmokes. His dad, Vinsmoke Judge, performed experiments on his children, giving')
+        print('them superhuman abilities in order to make the most perfect army in the world. However, Sanji failed to show the development')
+        print('of these powers, and suffered prolonged abuse as a result. He was beaten up by his superhuman strength-bearing siblings,')
+        print('who were shown to be losing their sense of humanity, taking after their father. They beat him to the brink of death often, whether')
+        print('it was for showing kindness by feeding starving rats, or if it was for simply existing. All this behavior was further')
+        print('vindicated by Judge, who made it clear he had no interest in protecting the life of a failure. After being held in prison by his')
+        print('father who was tired of dealing with him, he was able to escape with the help of his only sister, who was alone amongst his siblings')
+        print('in showing him kindness, seeing the image of their deceased mother in the young boy. At age 8, Sanji was able to escape and found')
+        print('the man who became the father figure he deserved: Zeff.\n')
+        
+        print('We learn that Sanji\'s bounty describing him as wanted "Only Alive" was at the command of Judge, who wanted to reunite with')
+        print('his son to complete a marriage between his family and a member of Big Mom\'s, a ploy to gain more influence. Sanji')
+        print('has the life of the Straw Hats held over his head by Big Mom, who wanted to use the marriage in order to murder Sanji and his family.')
+        print('In an attempt to make his crew believe he betrayed them rather than having them know he essentially is sacrificing himself')
+        print('for them, Sanji attacks Luffy, who does nothing. Luffy doesn\'t beleive Sanji for a second, and declares he will die before')
+        print('letting Sanji leave. After a tearful departure, Sanji is set to marry Pudding, the daughter of Big Mom. For the first time')
+        print('in the series, Luffy doesn\'t show unwavering optimism in his ability to be King of the Pirates in his speech to Sanji')
+        print('by saying: \n')
+        
+        print('"Without you, I can\'t become King of the Pirates!"\n')
+        
+        print('This line marks one of the most impactful moments of the show, as Luffy has never acknowledged the fact that he might fail')
+        print('in his quest. We\'ve learned being King of the Pirates isn\'t even Luffy\'s ultimate dream, it is simply a vehicle to')
+        print('get to his dream. The bond among the crew now transcends the original goals that they set out to sea with, not because')
+        print('it\'s not important to them anymore, but the goals of the crew have almost all merged into one glorious amalgamation.')
+        print('Rather than individuals who teamed up out of necessity for their dreams, we are reminded they are now a group that lives')
+        print('for each other.\n')
+        
+        print('The true intentions of Pudding and her plan to murder Sanji is learned by the Straw Hats and Sanji. Sanji still decides to go through')
+        print('with the wedding to protect his crew, any sign of optimism forfeited as he was actually smitten with Pudding, and didn\'t hate the')
+        print('idea of marrying her. Luffy and the crew share no such sentiment, however, and crash the wedding. In the process, Judge learns about')
+        print('Big Mom\'s plan to kill Sanji and the Vinsmokes too late, and would have died if not for being saved by Sanji. After')
+        print('escaping and saving the Vinsmokes, Sanji makes Judge swear to leave him and Zeff alone for life, disowning him as a father.')
+        
+        print('Taking on the most powerful of Big Mom\'s children, Katakuri, Luffy advances his strength and mastery of Haki even further.')
+        print('He activates two new forms in Gear 4, Tank Man and Snake Man. He also learns that advanced mastery of Observation Haki allows')
+        print('the user to see slightly into the future, a skill which Luffy masters during his fight with Katakuri. We also learn that Haki')
+        print('strengthens through combat with an opponent of a higher skill.\n')
+        
+        print('In Whole Cake Island\'s concluding phase, Jimbe finally joins the Straw Hats, an addition that had been postponed since his')
+        print('promise with Luffy at Fishman Island. We revisit the Mink Tribe, and their duty to go help the samurai of Wano, setting course')
+        print('for the Straw Hat\'s next destination. Nami also receives an upgrade in combat, stealing Big Mom\'s personal Homie, a')
+        print('thundercloud named Zeus.\n')
+                
                 
     else:
         
