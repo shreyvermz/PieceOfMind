@@ -1452,9 +1452,59 @@ def give_arc_description():
         print('strengthens through combat with an opponent of a higher skill.\n')
         
         print('In Whole Cake Island\'s concluding phase, Jimbe finally joins the Straw Hats, an addition that had been postponed since his')
-        print('promise with Luffy at Fishman Island. We revisit the Mink Tribe, and their duty to go help the samurai of Wano, setting course')
-        print('for the Straw Hat\'s next destination. Nami also receives an upgrade in combat, stealing Big Mom\'s personal Homie, a')
-        print('thundercloud named Zeus.\n')
+        print('promise with Luffy at Fishman Island. Nami also receives an upgrade in combat, stealing Big Mom\'s personal Homie, a')
+        print('thundercloud named Zeus.  We revisit the Mink Tribe, and their duty to go help the samurai of Wano, setting course')
+        print('for the Straw Hat\'s next destination.\n')
+        
+    elif which_to_describe == str(31):
+        
+        print('The last arc available in this programs database, Wano Country is the show\'s longest arc, as it is split up into three')
+        print('acts, and feautures the character referred to as the "Strongest Creature in the World", Kaido. Wano Country is a secluded nation,')
+        print('and doesn\'t recognize the World Government as it\'s rulers. This allows them to govern themselves and enforce the lifestlye they')
+        print('believe in, however this also leaves them without the aid of the Marines in times of military conflict. The population is made of samurais,')
+        print('with an emphasis on Japanese clothing and culture being the most prominent way of life.\n')
+        
+        print('We learn the backstory of Wano and how Kaido came to power, tricking the previous Shogun, Kozuki Oden, to his death while subjugating')
+        print('the people of Wano to Oden\'s rival, Orochi. Orochi was more of a figure head for Kaido to exact his will behind, however the power')
+        print('that Orochi did have was used to make the citizens of Wano suffer. Orochi\'s clan was subject to scrutiny due to their efforts to rebel,')
+        print('and him and his family suffered from discrimination by most people of Wano.\n')
+        
+        print('Kozuki Oden is shown to have been a kind and passionate leader, exuding a personality similar to Gol D. Roger, who liked the')
+        print('samurai so much, he was invited aboard the crew on their journey to Laugh Tale. Oden treated his retainers and citizens with respect,')
+        print('being revered until the interference of Orochi and Kaido. The public execution of the Kozuki clan, including Momonosuke and his sister')
+        print('Hiyori, prompted Oden\'s wife to use her Devil Fruit powers to send Momonosuke 20 years in the future, to where she describes')
+        print('"a new dawn" that will be ushered by men entering Wano. Momonosuke learns of his father\'s journey and will from Yamato, the son of Kaido')
+        print('who despises the Emperor and idolizes Oden. Yamato shares Oden\'s logbook with Momonosuke, detailing that Luffy was in fact the man who')
+        print('would bring a new dawn to the Land of Wano, revealing that he has the exact same dream as Gol D. Roger. Both Roger and Luffy were made fun')
+        print('of by their friends for having such a silly dream, one we still don\'t know of. Yamato was able to find out Luffy\'s dream due to Ace visiting')
+        print('Wano and becoming friends with Yamato.\n')        
+        
+        print('When detailing the journey of Oden with the Roger Pirates, Yamato explains that Joy Boy, a character mentioned in Fishman Island that')
+        print('existed before the age of the World Government, and is one of the most important characters involving the mysterious history of the One Piece')
+        print('world. It is explained in Oden\'s logbook that Joy Boy left a treasure in the final island, Laugh Tale. Oden then describes the very moment')
+        print('the Roger Pirates laid their eyes on the One Piece: laughter. The joyous outburst from the group led to the island\'s name, calling whatever')
+        print('Joy Boy left behind a "funny story". Oden then decided he wanted to open the borders of Wano, as to create a massive change in the world, and')
+        print('more specifically, to welcome a certain person into the country when the time came.\n')
+        
+        print('Moving back to present day in Wano, Luffy meets a young girl named Otama, feeding him red bean soup after hearing he was very hungry. After eating,')
+        print('Luffy learns that Otama gave him the last of her food despite being on the brink of starving. It is then described to Luffy of what Kaido and')
+        print('Orochi\'s rule has done to the Land of Wano. Arms development plants were sprung up all over the country, with the citizens being forced to undergo')
+        print('slave labor to produce materials for the rulers. Every source of water was poisoned besides the ones directly in control of Kaido and Orochi, not')
+        print('only making water undrinkable, but hunting was not an option either, as the animals would also be drinking from the same water.')
+        print('The horrors continue, however, as we learn that Caesar Clown\'s manufacturing of SMILE fruits were at the request of Kaido.')
+        print('The SMILE fruits were mostly defective, with the rare case of one working granting the eater a Zoan-type Devil Fruit power.')
+        print('The ones that didn\'t bestow a Devil Fruit power left the user unable to express themselves in any way but laughter. Whether')
+        print('that person hears an unfunny joke, or watches their parents die, all they can do is laugh. We see that Tama, along with a subset of the population of Wano,')
+        print('were fed a batch of SMILEs after begging for food, with Kaido\'s suboordinates knowingly giving them a defective batch. After hearing her backstory, Luffy')
+        print('immediately attacked Kaido, but proving to be far too weak, he almost dies and is sent to a labor camp.\n')
+        
+        print('Upon becoming a prisoner, Luffy learns about Wano\'s interpretation of Haki, as they developed a method called "Ryou". Meaning flow, Ryou involved')
+        print('the transfer of Haki within a user\'s body in a precise way to make its use more potent. There are two applications of Ryou, the first being the ability')
+        print('to project Haki from the user\'s body. This lets users hit their targets with Haki without touching them, making it more of a projectile. The')
+        print('second use is the ability to destroy objects from the inside when grabbing them. The time Luffy spends in this prison serves as a mini training arc,')
+        print('as well as showing his ability to piece back together the broken spirits of the Land of Wano, inspiring a breakout of the prison amongst the soldiers.')
+        print('With new powers under his belt, Luffy vows to Otama to make the Land of Wano a place where "my friends can eat all the food they want", and to take down Kaido.')
+        print('Momonosuke overcomes his fears and declares to Wano that he is the new Shogun, and with the help of Ninja-Pirate-Mink-Samurai Alliance, Wano will be free.\n')    
                 
                 
     else:
