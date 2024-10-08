@@ -919,7 +919,7 @@ def give_arc_description():
         print('The emancipation of Skypiea and restoration of Jaya\'s faith by Luffy is an impressive individual')
         print('occurence in the context of the arc, but this arc lays the groundwork for a transformation shown')
         print('almost 1000 episodes later in Wano Country. While celebrating, the tribe of Shandia keys the audience')
-        print('to the existence of mysterious war drums that seem to follow a battle attaining freedom, and in the')
+        print('into the existence of mysterious War Drums that seem to follow a battle attaining freedom, and in the')
         print('anime, the rhythm sounds similar to the recurring theme song we hear before all of Luffy\'s battles.')
         print('This is our first introduction to the Drums of Liberation.\n')
         
@@ -1458,11 +1458,11 @@ def give_arc_description():
         
     elif which_to_describe == str(31):
         
-        print('The last arc available in this programs database, Wano Country is the show\'s longest arc, as it is split up into three')
-        print('acts, and feautures the character referred to as the "Strongest Creature in the World", Kaido. Wano Country is a secluded nation,')
-        print('and doesn\'t recognize the World Government as it\'s rulers. This allows them to govern themselves and enforce the lifestlye they')
+        print('\nThe last arc available in this programs database, Wano Country, is the show\'s longest arc, as it is split up into three')
+        print('acts, and features the character referred to as the "Strongest Creature in the World", Kaido. Wano Country is a secluded nation,')
+        print('and doesn\'t recognize the World Government as its rulers. This allows them to govern themselves and enforce the lifestlye they')
         print('believe in, however this also leaves them without the aid of the Marines in times of military conflict. The population is made of samurais,')
-        print('with an emphasis on Japanese clothing and culture being the most prominent way of life.\n')
+        print('with an emphasis on Japanese clothing and culture incorporated in their way of life.\n')
         
         print('We learn the backstory of Wano and how Kaido came to power, tricking the previous Shogun, Kozuki Oden, to his death while subjugating')
         print('the people of Wano to Oden\'s rival, Orochi. Orochi was more of a figure head for Kaido to exact his will behind, however the power')
@@ -1479,7 +1479,7 @@ def give_arc_description():
         print('of by their friends for having such a silly dream, one we still don\'t know of. Yamato was able to find out Luffy\'s dream due to Ace visiting')
         print('Wano and becoming friends with Yamato.\n')        
         
-        print('When detailing the journey of Oden with the Roger Pirates, Yamato explains that Joy Boy, a character mentioned in Fishman Island that')
+        print('When detailing the journey of Oden with the Roger Pirates, Yamato mentions Joy Boy, a character mentioned in Fishman Island that')
         print('existed before the age of the World Government, and is one of the most important characters involving the mysterious history of the One Piece')
         print('world. It is explained in Oden\'s logbook that Joy Boy left a treasure in the final island, Laugh Tale. Oden then describes the very moment')
         print('the Roger Pirates laid their eyes on the One Piece: laughter. The joyous outburst from the group led to the island\'s name, calling whatever')
@@ -1505,6 +1505,28 @@ def give_arc_description():
         print('as well as showing his ability to piece back together the broken spirits of the Land of Wano, inspiring a breakout of the prison amongst the soldiers.')
         print('With new powers under his belt, Luffy vows to Otama to make the Land of Wano a place where "my friends can eat all the food they want", and to take down Kaido.')
         print('Momonosuke overcomes his fears and declares to Wano that he is the new Shogun, and with the help of Ninja-Pirate-Mink-Samurai Alliance, Wano will be free.\n')    
+        
+        print('As the raid begins, Luffy moves his fight with Kaido to the roof and the rest of the alliance stay inside the capital of Wano, Onigashima, fighting Kaido\'s')
+        print('suboordinates. While the battle is much closer this time, Luffy is bested once more, as the Five Elders were panicked about an outcome of their battle,')
+        print('sending one of their most powerful agents to interfere with the fight, causing Luffy to seemingly die mid-clash. The true nature of Luffy\'s Devil Fruit begins')
+        print('to unveil itself, as the Five Elders thought it better for Kaido to win and give them trouble rather than deal with Luffy\'s true power. We see Luffy\'s heartbeat')
+        print('begin to start again, this time to the rhythm of Drums. The Drums resemble the baseline of Luffy\'s battle theme, and match the rhythm of the War Drums')
+        print('we hear as far back as Skypiea.\n')
+        
+        print('Zunesha, the elephant carrying the town of Zou, is drawn closer to Wano by something. As Luffy\'s heart begins to play its tune, Zunesha exclaims to Momonosuke:\n')
+        print('"Momonosuke...I can hear them, I can hear the Drums of Liberation! For the first time in 800 years...Joy Boy... has returned!"\n')
+        
+        print('As Luffy finally jolts back awake, the Five Elders describe that the Gomu-Gomu Fruit Luffy was believed to have eaten was the object of the World Government\'s')
+        print('pursuit for centuries. The actual fruit Luffy had stolen and eaten from Shanks was the Mythical Zoan Human-Human Fruit, Model Nika. The fruit is said')
+        print('to have hidden its true nature and purposefully evaded the World Government, giving it the title of a God. More specifically, the fruit embodies')
+        print('the Warrior of Liberation, Sun God Nika. While Nika and Joy Boy were two seperate entities, Zunesha seemingly confirms that Joy Boy, or at least the')
+        print('spirit of him, lives on in Luffy, further solidifying Luffy\'s status as an important historical character.')
+        
+        print('With the freedom to bend reality to his will, Luffy is able to best Kaido and liberate the land of Wano through Gear 5, a form that gets stronger')
+        print('with the more fun Luffy is having. A battle of titans suddenly turns into an adaptation of Looney Toons in an instant, and the most fearsome creature')
+        print('in the world is turned into a joke for the audience. The achievement of this form allows the reliable whimsicality of Luffy to become a symbol,')
+        print('and shows that in a world surpressed by the World Government\'s shadow, Luffy will be the new dawn that shines on them as he does to Wano, making')
+        print('people laugh while granting them freedom.\n')
                 
                 
     else:
