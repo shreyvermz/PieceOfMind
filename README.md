@@ -1,4 +1,4 @@
-# Piece Of Mind (in progress!)
+# Piece Of Mind 
 ### An interactive menu analyzing data from public databases about One Piece arcs and epsiodes, as well as a personal analysis of each arc.
 
 ## Description
@@ -21,7 +21,7 @@ out of the program. It's functions, as of this moment, are:
     4. Display Highest Rated Epsiodes in Specific Arc
     5. Display Arc Titles
     6. Display Chapter to Episode Ratio
-    7. Display Arc Synopsis (in progress)
+    7. Display Arc Synopsis 
 
 ## Method and Motivation
 This project was completed using **Python** and the **Pandas** library contained within it to pull information from 2 databases. The first database was a list of the individual episodes,
